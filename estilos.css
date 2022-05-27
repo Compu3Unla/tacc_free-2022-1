@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*------------------HEADER-------------------*/
+
+header {
+	background-color: #508B59;
+	height: 60px;
+	width: 100%;
+
+}
+
+.botonera {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav ul li {
+	color: white;
+	font-family: 'Inika', serif;
+	display: inline;
+	align-items: center;
+}
+
+/*------------------MAIN-------------------*/
+
+main h1 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+}
+
+main p {
+	font-family: 'Inika', serif;
+	color: #508B59;
+}
+
+main nav ul li {
+	background-color: #EC881D;
+}
+
+/*------------------FOOTER-------------------*/
+
+footer {
+	background-color: #EC881D;
+	height: 100px;
+	display: flex;
+	color: white;
+	width: 100%;
+
+}
+
+
+
+
