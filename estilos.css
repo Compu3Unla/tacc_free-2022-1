@@ -4,6 +4,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	list-style: none;
 }
 
 /*------------------HEADER-------------------*/
@@ -12,36 +13,80 @@ header {
 	background-color: #508B59;
 	height: 60px;
 	width: 100%;
-
-}
-
-.botonera {
 	display: flex;
-	justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
 }
+
 
 header nav ul li {
 	color: white;
 	font-family: 'Inika', serif;
 	display: inline;
 	align-items: center;
+	margin-top: 10px;
+}
+
+.botonera1 {
+	display: flex;
+	padding-right: 20px;
 }
 
 /*------------------MAIN-------------------*/
 
-main h1 {
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.columnaizq {
+	width: 40%;
+}
+
+.columnader {
+	width: 60%;
+	text-align: center;
+	padding-top: 60px;
+	padding-right: 120px;
+	padding-left: 120px;
+		
+}
+
+
+
+.registro {
+	display: inline;
+	
+}
+
+main h1, h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
+	font-size: 3em;
+	padding-bottom: 15px;
+}
+
+main h2 {
+	font-size: 2em;
+
 }
 
 main p {
 	font-family: 'Inika', serif;
 	color: #508B59;
+	font-size: 1.2em;
+	padding-bottom: 80px;
 }
 
 main nav ul li {
 	background-color: #EC881D;
 }
+
+article {
+	display: flex;
+	flex-direction: column;
+}
+
 
 /*------------------FOOTER-------------------*/
 
