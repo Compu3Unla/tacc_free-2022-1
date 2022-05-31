@@ -25,7 +25,9 @@ header nav ul li {
 	display: inline;
 	align-items: center;
 	margin-top: 10px;
+	padding:10px;
 }
+
 
 .botonera1 {
 	display: flex;
