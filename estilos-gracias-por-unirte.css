@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -52,11 +53,108 @@ header nav ul li {
 	color:black;
 	padding-right: 60px;
 	padding-left: 60px;
-
->>>>>>> 9cec69d641c6dc4a4d420f8abbbe938af68a08a7
 }
 
+
+	
 /*------------------MAIN-------------------*/
+
+main {
+	display: flex;
+	flex-direction: row;
+	background-image: url("img/forma fondo.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% auto;
+	height: inherit;
+	padding-left: 100px;
+	padding-right: 150px;
+}
+
+.columnaizq {
+	width: 40%;
+	align-content: center;
+}
+
+.columnader {
+	width: 60%;
+	text-align: center;
+	padding-top: 200px;
+	padding-right: 120px;
+	padding-left: 180px;
+		
+}
+
+main div img{
+	padding-top: 80px;
+	padding-left: 80px;
+	
+}
+
+main h1, h2 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	padding-bottom: 15px;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+ h2 {
+	font-size: 2em;
+	padding-top: 60px;
+	padding-right: 120px;
+	padding-left: 180px;
+
+}
+
+main p {
+	font-family: 'Inika', serif;
+	color: #508B59;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+article {
+	display:flex;
+	flex-direction: column;
+}
+.imginicio {
+	display:flex;
+	justify-content: flex-end;
+
+}
+
+h3 {
+	font-family: 'Original Surfer', cursive;
+	font-size:2em;
+	color:#508B59;
+	text-align: center;
+}
+
+
+
+/*------------------FOOTER-------------------*/
+
+footer {
+	background-color: #EC881D;
+	height: 80px;
+	font-family:'open-sans', "Alegreya Sans";
+	font-size:1em;
+	color: white;
+	width: 100%;
+	padding:10px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
+	
+	/*------------------MAIN-------------------*/
 
 main {
 	display: flex;
@@ -178,6 +276,5 @@ footer {
 	justify-content: space-between;
 
 }
-
 
 
