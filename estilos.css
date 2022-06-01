@@ -16,15 +16,19 @@ header {
 	width: 100%;
 	display: flex;
     align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	position: fixed;
+	
 }
 
 header div {
 	justify-content: flex-start;
+	padding-left: 10px;
 }
 
 header nav ul li {
+	text-decoration: none;
+	list-style:none;
 	color: white;
 	font-family: 'Inika', serif;
 	display: inline;
@@ -39,8 +43,8 @@ header nav ul li {
 
 .botoneraheader {
 	display: flex;
-	list-style: none;
 	text-decoration: none;
+	color:black;
 	padding-right: 60px;
 
 >>>>>>> 9cec69d641c6dc4a4d420f8abbbe938af68a08a7
@@ -67,54 +71,67 @@ main {
 	text-align: center;
 	padding-top: 200px;
 	padding-right: 120px;
-	padding-left: 120px;
+	padding-left: 180px;
 		
 }
 
 main div img{
 	padding-top: 200px;
 	padding-left: 80px;
+	
 }
 
 .registro {
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	background-color: #EC881D;
 	font-family: 'Original Surfer', cursive;
 	color: white;
 	font-size: 2em;
-	background-color: #EC881D;
-	padding-bottom: 10px;
-	
+	padding-right: 120px;
+	padding-left: 180px;
 	
 }
+
 
 
 main h1, h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
-	font-size: 3.5em;
+	font-size: 2.5em;
 	padding-bottom: 15px;
 }
 
  h2 {
 	font-size: 3em;
-	padding-bottom: 10px;
+	padding-top: 50px;
+	padding-right: 120px;
+	padding-left: 180px;
 
 }
 
 main p {
 	font-family: 'Inika', serif;
 	color: #508B59;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	padding-bottom: 80px;
 }
 
 article {
-	display: flex;
+	display:flex;
 	flex-direction: column;
 }
 .imginicio {
 	display:flex;
+	justify-content: flex-end;
+
+}
+
+h3 {
+	font-family: 'Original Surfer', cursive;
+	font-size:2em;
+	color:#508B59;
+	text-align: center;
 }
 
 /*------------------FOOTER-------------------*/
@@ -122,12 +139,15 @@ article {
 footer {
 	background-color: #EC881D;
 	height: 100px;
-	display: flex;
+	font-family:'open-sans', "Alegreya Sans";
+	font-size:1em;
 	color: white;
 	width: 100%;
+	padding:10px;
+	display: flex;
+	justify-content: space-between;
 
 }
-
 
 
 
