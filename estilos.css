@@ -20,7 +20,7 @@ header {
 	height: 70px;
 	width: 100%;
 	display: flex;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
 	position: fixed;
 	
@@ -38,9 +38,6 @@ header nav ul li {
 	font-family: 'Inika', serif;
 	display: inline;
 	align-items: center;
-<<<<<<< HEAD
-	
-=======
 	margin-top: 10px;
 	padding:10px;
 }
@@ -52,41 +49,34 @@ header nav ul li {
 	color:black;
 	padding-right: 60px;
 	padding-left: 60px;
-
->>>>>>> 9cec69d641c6dc4a4d420f8abbbe938af68a08a7
 }
 
 /*------------------MAIN-------------------*/
 
 main {
+	max-width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 	background-image: url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% auto;
 	height: inherit;
-	padding-left: 100px;
-	padding-right: 150px;
 }
 
 .columnaizq {
-	width: 40%;
+	width: 100%;
 	align-content: center;
 }
 
 .columnader {
-	width: 60%;
+	width: 100%;
+	padding: 200px 200px;
 	text-align: center;
-	padding-top: 200px;
-	padding-right: 120px;
-	padding-left: 180px;
-		
 }
 
 main div img{
-	padding-top: 200px;
-	padding-left: 80px;
+	align-content: center;
 	
 }
 
@@ -95,31 +85,26 @@ main div img{
 	justify-content: space-evenly;
 	font-family: 'Original Surfer', cursive;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-top: 30px;
 	
 }
 
 .botonizq {
 	background-color: #EC881D;
-	height:60px;
-	border-radius:40px;
-	margin-bottom:16px;
+	border-radius:30px;
 	border:none;
-	padding-top: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 5px 10px 10px;
+	
 }
 
 .botonderech {
 	background-color: #EC881D;
-	height:60px;
-	border-radius:40px;
-	margin-bottom:16px;
+	border-radius:30px;
+	padding-bottom:30px;
 	border:none;
-	padding-top: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 5px 10px 10px;
+	
 }
 
 main h1, h2 {
@@ -131,9 +116,7 @@ main h1, h2 {
 
  h2 {
 	font-size: 2em;
-	padding-top: 170px;
-	padding-right: 120px;
-	padding-left: 180px;
+	padding-top:140px;
 
 }
 
@@ -149,10 +132,11 @@ article {
 	display:flex;
 	flex-direction: column;
 }
-.imginicio {
-	display:flex;
-	justify-content: flex-end;
 
+.logo{
+	justify-content: center;
+	padding-top: 150px;
+	padding-left:80px;
 }
 
 h3 {
@@ -160,6 +144,12 @@ h3 {
 	font-size:2em;
 	color:#508B59;
 	text-align: center;
+	flex-direction: row;
+}
+
+h4{
+	font-size: 1em;
+	padding-bottom: 10px;
 }
 
 
@@ -168,16 +158,38 @@ h3 {
 
 footer {
 	background-color: #EC881D;
-	height: 80px;
 	font-family:'open-sans', "Alegreya Sans";
-	font-size:1em;
 	color: white;
 	width: 100%;
-	padding:10px;
 	display: flex;
-	justify-content: space-between;
-
+	justify-content: space-around;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
+.imgfooter{
+	padding-top: 5px;
+}
 
+.footer{
+	font-size: 1em;
+	padding-top: 5px;
+}
+.footerpre {
+	font-size: 0.8em;
+}
 
+.footercont{
+	font-size: 0.8em
+}
+.aviso{
+	font-size: 0.8em;
+}
+
+.politica{
+	font-size: 0.8em;
+}
+
+.cookies{
+	font-size: 0.8em;
+}
