@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*------------------HEADER-------------------*/
+
+header {
+	background-color: #508B59;
+	height: 70px;
+	width: 100%;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	
+}
+
+header div {
+	justify-content: flex-start;
+	padding-left: 10px;
+}
+
+header nav ul li {
+	text-decoration: none;
+	list-style:none;
+	color: white;
+	font-family: 'Inika', serif;
+	display: inline;
+	align-items: center;
+	margin-top: 10px;
+	padding:10px;
+}
+
+
+.botoneraheader {
+	display: flex;
+	text-decoration: none;
+	color:black;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+/*------------------MAIN---------------------*/
+main{
+	display: flex;
+	flex-direction: column;
+}
+h1, h2, h3, h4 {
+	color:#EC881D;
+	font-family: "Original Surfer", cursive;
+}
+h1{
+	font-size: 2.5em;
+}
+h2{
+	font-size: 1.5em;
+}
+p{
+	font-family: "Inika", serif;
+	font-size: 1em;
+	color: #508B59;
+}
+.bold{
+	font-size: 1em;
+	font-weight: 700;
+}
+h5, article p {
+	font-family: "Open sans", sans-serif;
+	color: #508B59;
+	font-size:0.8em;
+}
+.columnader{
+	width:70%;
+	height:600px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding:20px;
+	
+}
+.restaurante{
+	width:65%;
+	height:290px;
+	border-radius:18px;
+	background: #F9EEE6;
+}
+.carrusel{
+	width:65%;
+	height:200px;
+}
+.columnaizq{
+	width: 25%;
+	Height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+	align-items:center;
+	padding:10px;
+	background:#EC881D;
+}
+.datos{
+	width:70%;
+	height:90px;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+}
+.horario{
+	width:70%;
+	height:80px;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+}
+.comentarios{
+	width:70%;
+	height:160px;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+}
+/*------------------FOOTER-------------------*/
+
+footer {
+	background-color: #EC881D;
+	height: 80px;
+	font-family:'open-sans', "Alegreya Sans";
+	font-size:1em;
+	color: white;
+	width: 100%;
+	padding:10px;
+	display: flex;
+	justify-content: space-between;
+
+}

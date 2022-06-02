@@ -8,6 +8,7 @@
 body{
 	background: #EC881D;
 }
+
 main{
 	display:flex;
 	flex-direction:row;
@@ -16,7 +17,7 @@ main{
 	width:40%;
 	margin:130px;
 }
-.Formulario-registro{
+.Formulario-inicio{
 	width:60%;
 	padding-bottom:30px;
 	padding-right:120px;
@@ -25,9 +26,7 @@ main{
 }
 h1{
 	color:white;
-	font-size:1.8em;
-	padding-bottom: 5px;
-	padding-top: 10px;
+	font-size: 1.8em;
 }
 .Controles{
 	width:60%;
@@ -38,15 +37,11 @@ h1{
 	border:none;
 	font-size:1.2em;
 }
-input type{
-	color:white;
-} 
 p{
 	color:white;
 	font-size:1.2em;
 	padding-bottom: 50px;
 }
-
 .Boton{
 	width:40%;
 	height:60px;

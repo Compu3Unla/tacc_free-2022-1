@@ -8,14 +8,19 @@
 	text-decoration: none;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
 /*------------------HEADER-------------------*/
 
 header {
 	background-color: #508B59;
-	height: 80px;
+	height: 70px;
 	width: 100%;
 	display: flex;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
 	position: fixed;
 	
@@ -32,6 +37,7 @@ header nav ul li {
 	font-family: 'Inika', serif;
 	display: inline-block;
 	align-items: center;
+<<<<<<< HEAD
 	background: #508B59;
 	color: white;
 	padding-top: 10px;
@@ -41,6 +47,8 @@ header nav ul li {
 <<<<<<< HEAD
 	
 =======
+=======
+>>>>>>> 9187029d20a852c2de1505400402e6a103828f00
 	margin-top: 10px;
 }
 .opciones{
@@ -57,16 +65,16 @@ nav li:hover> ul{
 	text-decoration: none;
 	color:black;
 	padding-right: 60px;
-
->>>>>>> 9cec69d641c6dc4a4d420f8abbbe938af68a08a7
+	padding-left: 60px;
 }
 
 
 /*------------------MAIN-------------------*/
 
 main {
+	max-width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction:row;
 	background-image: url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -75,16 +83,14 @@ main {
 }
 
 .columnaizq {
-	width: 40%;
+	width: 100%;
+	align-content: center;
 }
 
 .columnader {
-	width: 60%;
+	width: 100%;
+	padding: 200px 200px;
 	text-align: center;
-	padding-top: 200px;
-	padding-right: 120px;
-	padding-left: 180px;
-		
 }
 .botonera{
 	display: inline;
@@ -104,24 +110,36 @@ main {
 }
 
 main div img{
-	padding-top: 200px;
-	padding-left: 80px;
+	align-content: center;
 	
 }
 
 .registro {
 	display:flex;
 	justify-content: space-evenly;
-	background-color: #EC881D;
 	font-family: 'Original Surfer', cursive;
 	color: white;
-	font-size: 2em;
-	padding-right: 120px;
-	padding-left: 180px;
+	font-size: 1.5em;
+	padding-top: 30px;
 	
 }
 
+.botonizq {
+	background-color: #EC881D;
+	border-radius:30px;
+	border:none;
+	padding: 5px 10px 10px;
+	
+}
 
+.botonderech {
+	background-color: #EC881D;
+	border-radius:30px;
+	padding-bottom:30px;
+	border:none;
+	padding: 5px 10px 10px;
+	
+}
 
 main h1, h2 {
 	font-family: 'Original Surfer', cursive;
@@ -131,10 +149,8 @@ main h1, h2 {
 }
 
  h2 {
-	font-size: 3em;
-	padding-top: 50px;
-	padding-right: 120px;
-	padding-left: 180px;
+	font-size: 2em;
+	padding-top:140px;
 
 }
 
@@ -143,16 +159,18 @@ main p {
 	color: #508B59;
 	font-size: 1.2em;
 	padding-bottom: 80px;
+	padding-top: 20px;
 }
 
 article {
 	display:flex;
 	flex-direction: column;
 }
-.imginicio {
-	display:flex;
-	justify-content: flex-end;
 
+.logo{
+	justify-content: center;
+	padding-top: 150px;
+	padding-left:80px;
 }
 
 h3 {
@@ -160,25 +178,55 @@ h3 {
 	font-size:2em;
 	color:#508B59;
 	text-align: center;
+	flex-direction: row;
 }
+
+h4{
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+
 
 /*------------------FOOTER-------------------*/
 
 footer {
 	background-color: #EC881D;
-	height: 100px;
 	font-family:'open-sans', "Alegreya Sans";
-	font-size:1em;
 	color: white;
 	width: 100%;
-	padding:10px;
 	display: flex;
-	justify-content: space-between;
-
+	justify-content: space-around;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 a {
 	cursor: pointer;
 }
 
+.imgfooter{
+	padding-top: 5px;
+}
 
+.footer{
+	font-size: 1em;
+	padding-top: 5px;
+}
+.footerpre {
+	font-size: 0.8em;
+}
 
+.footercont{
+	font-size: 0.8em
+}
+.aviso{
+	font-size: 0.8em;
+}
+
+.politica{
+	font-size: 0.8em;
+}
+
+.cookies{
+	font-size: 0.8em;
+}
