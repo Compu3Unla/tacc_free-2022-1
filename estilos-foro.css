@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 *{
 	margin: 0px;
 	padding: 0px;
@@ -51,20 +49,4 @@ header nav ul li {
 	color:black;
 	padding-right: 60px;
 	padding-left: 60px;
-}
-
-
-/*------------------FOOTER-------------------*/
-
-footer {
-	background-color: #EC881D;
-	height: 80px;
-	font-family:'open-sans', "Alegreya Sans";
-	font-size:1em;
-	color: white;
-	width: 100%;
-	padding:10px;
-	display: flex;
-	justify-content: space-between;
-
 }

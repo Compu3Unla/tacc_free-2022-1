@@ -18,7 +18,7 @@ a {
 
 header {
 	background-color: #508B59;
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	display: flex;
     align-items: center;
@@ -47,15 +47,27 @@ header nav ul li {
 .botoneraheader {
 	display: flex;
 	text-decoration: none;
-	color:black;
 	padding-right: 60px;
 	padding-left: 60px;
+}
+
+.opciones{
+	display: none;
+	position: absolute;
+	background-color: #508B59;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+nav li:hover> ul{
+	display: block;
 }
 
 /*------------------MAIN---------------------*/
 main{
 	display: flex;
 	flex-direction: column;
+	padding-top: 200px;
 }
 h1, h2, h3, h4 {
 	color:#EC881D;
@@ -145,4 +157,12 @@ footer {
 	display: flex;
 	justify-content: space-between;
 
+}
+
+.infolegal{
+	color: white;
+}
+
+.infonuestra {
+	color: white;
 }

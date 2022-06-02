@@ -17,7 +17,7 @@ a {
 
 header {
 	background-color: #508B59;
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -36,31 +36,26 @@ header nav ul li {
 	list-style: none;
 	font-family: 'Inika', serif;
 	display: inline-block;
-	align-items: center;
-<<<<<<< HEAD
+	align-items: flex-end;
 	background: #508B59;
 	color: white;
-	padding-top: 10px;
 	padding-right: 15px;
 	float: left;
-
-<<<<<<< HEAD
-	
-=======
-=======
->>>>>>> 9187029d20a852c2de1505400402e6a103828f00
 	margin-top: 10px;
+	justify-content: flex-end;
+	
 }
+
 .opciones{
 	display: none;
 	position: absolute;
 }
+
 nav li:hover> ul{
 	display: block;
 }
 
 .botoneraheader {
-	width:40%;
 	display: flex;
 	text-decoration: none;
 	color:black;
@@ -95,6 +90,7 @@ main {
 .botonera{
 	display: inline;
 }
+
 .botones{
 	width: 30%;
 	height: 60px;
@@ -121,15 +117,13 @@ main div img{
 	color: white;
 	font-size: 1.5em;
 	padding-top: 30px;
-	
-}
+	}
 
 .botonizq {
 	background-color: #EC881D;
 	border-radius:30px;
 	border:none;
 	padding: 5px 10px 10px;
-	
 }
 
 .botonderech {
@@ -151,7 +145,6 @@ main h1, h2 {
  h2 {
 	font-size: 2em;
 	padding-top:140px;
-
 }
 
 main p {
@@ -199,7 +192,9 @@ footer {
 	justify-content: space-around;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	font-size: 0.8em;
 }
+
 a {
 	cursor: pointer;
 }
@@ -211,22 +206,4 @@ a {
 .footer{
 	font-size: 1em;
 	padding-top: 5px;
-}
-.footerpre {
-	font-size: 0.8em;
-}
-
-.footercont{
-	font-size: 0.8em
-}
-.aviso{
-	font-size: 0.8em;
-}
-
-.politica{
-	font-size: 0.8em;
-}
-
-.cookies{
-	font-size: 0.8em;
 }
