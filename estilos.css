@@ -28,20 +28,31 @@ header div {
 
 header nav ul li {
 	text-decoration: none;
-	list-style:none;
-	color: white;
+	list-style: none;
 	font-family: 'Inika', serif;
-	display: inline;
+	display: inline-block;
 	align-items: center;
+	background: #508B59;
+	color: white;
+	padding-top: 10px;
+	padding-right: 15px;
+	float: left;
+
 <<<<<<< HEAD
 	
 =======
 	margin-top: 10px;
-	padding:10px;
+}
+.opciones{
+	display: none;
+	position: absolute;
+}
+nav li:hover> ul{
+	display: block;
 }
 
-
 .botoneraheader {
+	width:40%;
 	display: flex;
 	text-decoration: none;
 	color:black;
@@ -49,6 +60,7 @@ header nav ul li {
 
 >>>>>>> 9cec69d641c6dc4a4d420f8abbbe938af68a08a7
 }
+
 
 /*------------------MAIN-------------------*/
 
@@ -73,6 +85,22 @@ main {
 	padding-right: 120px;
 	padding-left: 180px;
 		
+}
+.botonera{
+	display: inline;
+}
+.botones{
+	width: 30%;
+	height: 60px;
+	margin: auto;
+	margin-top: 16px;
+	font-size: 1.5em;
+	font-family: "Original Surfer",cursive;
+	border: none;
+	border-radius: 30px;
+	background: #EC881D;
+	color: white;
+	cursor: pointer;
 }
 
 main div img{
@@ -147,6 +175,9 @@ footer {
 	display: flex;
 	justify-content: space-between;
 
+}
+a {
+	cursor: pointer;
 }
 
 
