@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Restaurantes | TACC FREE</title>
-	<link href="estilos-restaurantes.css" rel="stylesheet" type="text/css">
+	<link href="estilos.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Open+Sans:wght@400;700&family=Original+Surfer&display=swap" rel="stylesheet">
 </head>
@@ -13,29 +13,59 @@
 	<header>
 		
 		<div>
-			<a href="gracias por unirte.html"><img src="img/logo a inicio.png" alt="logo a inicio"/></a>
+			<a href="gracias por unirte.html"><img src="img/logo a inicio.png" width="61" height="35" alt="logoheader"/></a>
 		</div>
 		
 		 <nav class="botoneraheader">
 			<ul>
-				<li><a href="restaurantes.html">Restaurantes</a></li>
-				<li><a href="recetas.html">Recetas</a></li>
+				<li><a href="#">Restaurantes</a></li>
+				<li><a href="#">Recetas</a>
 					<ul class="opciones">
 						<li><a href="#">Dulces</a></li>
 						<li><a href="#">Saladas</a></li>
 					</ul>
-				<li><a href="foro.html">Foro</a></li>
+				</li>
+				<li><a href="#">Foro</a></li>
 				<li><a href="#">Mi perfil</a></li>
-			 </ul>
+			</ul>
 		</nav>
 		
 	</header>
 	
-	<main>
+	<main class="mainrestaurantes">
+		
+		<aside class="aside">
+			<section class="datos">
+				<h7>Nicaragua 4849, C1414,CABA</h7>
+				<h8>+54 11 2071-2960</h8>
+				<h8>www.sintaxisglutenfree.com</h8>
+			</section>
+		
+			<section class="horario">
+				<h6>Horario de atención</h6>
+				<h8>Martes a Sábados </h8>
+				<h7>10:00 a 23:30 hs</h7>
+				<h8>Domingos </h8>
+				<h7>10:00 a 20:00 hs</h7>
+			</section>
+	
+			<section class="comentarios">
+				<h6>Comentarios</h6>
+				<h7>María</h7>
+				<h8>Fui y me encanto, riquisima la comida</h8>
+				<h7>Pablo</h7>
+				<h8>Excelente atención, volvería mil veces más. Riquisimo todo</h8>
+				<input class="boton" type="submit" value="Ver foro">
+				<h6>Contanos que te pareció este lugar</h6>
+			<h8>Comentar</h8>
+			</section>
+		</aside>
+		
+		
 		<div class="columnader">
-			<section class="restaurante">
+			<section >
 				<h1>Sintaxis Palermo</h1>
-				<p>Sintaxis es el sueño cumplido de una familia que imaginó un lugar diferente. El 17 de julio de 2012 abrió sus puertas <span class="bold">el primer restaurante de la República Argentina con la cocina estrictamente libre de gluten.</span> Sintaxis es la marca preferida entre la comunidad celíaca y quienes eligen comer sin gluten. Sus estándares de calidad y cuidado en la producción han generado gran fidelidad y seguridad para con los clientes.
+				<p class="restaurante">Sintaxis es el sueño cumplido de una familia que imaginó un lugar diferente. El 17 de julio de 2012 abrió sus puertas <span class="bold">el primer restaurante de la República Argentina con la cocina estrictamente libre de gluten.</span> Sintaxis es la marca preferida entre la comunidad celíaca y quienes eligen comer sin gluten. Sus estándares de calidad y cuidado en la producción han generado gran fidelidad y seguridad para con los clientes.
 				Un amplio salón con capacidad para 60 cubiertos y un sector al aire libre que invita a desconectarse por un largo rato. Decisiones implícitas en cada detalle dan como resultado una ambientación con un sutil equilibrio entre lo artesanal/ecológico y el puro diseño.</p>
 			</section>
 			<section class="carrusel">
@@ -47,30 +77,7 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7072427834837!2d-58.43169238103839!3d-34.58627351072857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5860d9ab49b%3A0xb0e5ebd5982a548a!2sSintaxis%20Palermo!5e0!3m2!1ses-419!2sar!4v1654176665470!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</section>
 		</div>
-		<div class="columnaizq">
-			<section class="datos">
-				<h3>Nicaragua 4849, C1414,CABA</h3>
-				<p>+54 11 2071-2960</p>
-				<p>www.sintaxisglutenfree.com</p>
-			</section>
 		
-			<section class="horario">
-				<h4>Horario de atención</h4>
-				<p>Martes a Sábados 10:00 a 23:30 hs</p>
-				<p>Domingos 10:00 a 20:00 hs</p>
-			</section>
-	
-			<section class="comentarios">
-				<h4>Comentarios</h4>
-				<h5>María</h5>
-				<p>Fui y me encanto, riquisima la comida</p>
-				<h5>Pablo</h5>
-				<p>Excelente atención, volvería mil veces más. Riquisimo todo</p>
-				<input class="boton" type="submit" value="Ver foro">
-				<h4>Contanos que te pareció este lugar</h4>
-			<h5>Comentar</h5>
-			</section>
-		</div>
 
 	</main>
 	
@@ -78,7 +85,7 @@
 	<footer>
 		<div>
 			<img src="img/logo a inicio.png" width="81" height="43" alt=""/>
-			<p> © Tacc Free 2022 | Todos los derechos reservados</p>
+			<h5> © Tacc Free 2022 | Todos los derechos reservados</h5>
 		</div>
 		<article>
 			<h4>SEGUINOS EN </h4>
@@ -90,14 +97,14 @@
 		</article>
 		<article>
 			<h4>SOBRE NOSOTROS</h4>
-			<p>Preguntas frecuentes</p>
-			<p>Contacto</p>
+			<h5>Preguntas frecuentes</h5>
+			<h5>Contacto</h5>
 		</article>
 		<article>
 			<h4>INFORMACIÓN</h4>
-			<p>Aviso legal</p>
-			<p>Política de privacidad</p>
-			<p>Política de cookies</p>
+			<h5>Aviso legal</h5>
+			<h5>Política de privacidad</h5>
+			<h5>Política de cookies</h5>
 		</article>
 		
 	
