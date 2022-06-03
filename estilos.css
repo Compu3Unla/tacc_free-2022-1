@@ -41,14 +41,17 @@ header nav ul li {
 	color: white;
 	padding-right: 15px;
 	float: left;
-	margin-top: 10px;
+	
 	justify-content: flex-end;
 	
 }
 
 .opciones{
-	display: none;
-	position: absolute;
+	display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 55px;
+	
 }
 
 nav li:hover> ul{
@@ -65,11 +68,13 @@ nav li:hover> ul{
 
 
 /*------------------MAIN-------------------*/
-
-main {
-	max-width: 100%;
+section {
 	display: flex;
 	flex-direction:row;
+}
+main {
+	max-width: 100%;
+	
 	background-image: url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -82,12 +87,14 @@ main {
 	align-content: center;
 }
 
-.columnader {
+.columnader  {
 	width: 100%;
-	padding: 200px 200px;
 	text-align: center;
+	padding-top: 100px;	
+	
 }
-.botonera{
+
+.botonera {
 	display: inline;
 }
 
@@ -140,6 +147,7 @@ main h1, h2 {
 	color: #EC881D;
 	font-size: 2.5em;
 	padding-bottom: 15px;
+	
 }
 
  h2 {
@@ -150,17 +158,34 @@ main h1, h2 {
 main p {
 	font-family: 'Inika', serif;
 	color: #508B59;
+	width: 60%;
 	font-size: 1.2em;
-	padding-bottom: 80px;
-	padding-top: 20px;
+	padding-bottom: 60px;
+	padding-top: 40px;
 }
 
+.circulos {
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+	padding-top: 50px;
+	padding-bottom: 100px;
+		
+}
+
+.contenedorresto h3 {
+	color:white;
+}
+.textoinicio p {
+	width:80%;
+}
 article {
 	display:flex;
 	flex-direction: column;
 }
 
-.logo{
+.logo {
 	justify-content: center;
 	padding-top: 150px;
 	padding-left:80px;
