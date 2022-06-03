@@ -41,16 +41,16 @@ header nav ul li {
 	color: white;
 	padding-right: 15px;
 	float: left;
-	
 	justify-content: flex-end;
+	padding-left: 5px;
 	
 }
 
 .opciones{
 	display: flex;
-    position: absolute;
-    flex-direction: column;
-    top: 55px;
+	position: absolute;
+	flex-direction: column;
+	top: 55px;
 	
 }
 
@@ -68,22 +68,22 @@ nav li:hover ul{
 
 /*------------------MAIN GENERAL-------------------*/
 
-
 h1 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
 	font-size: 2.5em;
 	padding-top: 40px;
 	padding-bottom: 20px;
-	
+	width: 90%;
 }
 
 h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
 	font-size: 2em;
-	padding-top: 40px;
+	padding-top: 130px;
 	padding-bottom: 20px;
+	width: 90%;
 }
 
 h3 {
@@ -95,7 +95,6 @@ h3 {
 	text-align: center;
 	flex-direction: row;
 }
-
 
 h4 {
 	font-family:'open-sans', "Alegreya Sans";
@@ -144,13 +143,14 @@ p {
 }
 
 .columnader {
-	width: 100%;
+	width:100%;
 	text-align: center;
-	padding-top: 100px;	
+	padding-top: 100px;
 	justify-content: center;
 }
 
 /*------------------MAIN INICIO-------------------*/
+
 .sectionbienvenida {
 	display: flex;
 	flex-direction:row;
@@ -165,24 +165,23 @@ p {
 	height: inherit;
 }
 
-
-
 .botonera {
 	display: inline;
 }
 
 .botones{
 	width: 30%;
-	height: 60px;
+	height: 40px;
 	margin: auto;
 	margin-top: 16px;
-	font-size: 1.5em;
+	font-size: 0.2em;
 	font-family: "Original Surfer",cursive;
 	border: none;
 	border-radius: 30px;
 	background: #EC881D;
 	color: white;
 	cursor: pointer;
+	padding-left: 5px;
 }
 
 .registro {
@@ -190,7 +189,7 @@ p {
 	justify-content: space-evenly;
 	font-family: 'Original Surfer', cursive;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	padding-top: 30px;
 	}
 
@@ -198,7 +197,7 @@ p {
 	background-color: #EC881D;
 	border-radius:30px;
 	border:none;
-	padding: 5px 10px 10px;
+	padding: 5px 10px 10px 10px;
 }
 
 .botonderech {
@@ -212,13 +211,13 @@ p {
 
 .textoquepodesencontrar {
 	width: 60%;
+	margin-left: 100px;
 }
 
 .textosabesloquees {
 	width: 80%;
+	margin-left: 25px;
 }
-
-
 
 .circulos {
 	display:flex;
@@ -229,7 +228,6 @@ p {
 	padding-bottom: 100px;
 	align-content: center;
 }
-
 
 article {
 	display:flex;
@@ -268,6 +266,10 @@ article {
 	padding:10px;
 }
 
+.textoquepodesencontrarbienvenida{
+	padding-left:50px;
+	padding-right: 70px;
+}
 .datos{
 	width:70%;
 	height:120px;
@@ -304,9 +306,38 @@ article {
 	cursor: pointer;
 }
 
+.sintaxis{
+	text-align: start;
+	padding-left: 250px;
+}
+.mapa{
+	padding-bottom: 200px;
+}
+/*------------------ MAIN RECETAS-------------------*/
 
 
+
+
+
+
+
+/*------------------ MAIN FORO-------------------*/
+
+.forobienvenido{
+	width: 100%;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 0px;
+}
+
+.forotacfree{
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	padding: 0px;
+}
 /*------------------FOOTER-------------------*/
+
 footer {
 	background-color: #EC881D;
 	height: 80px;
@@ -314,7 +345,7 @@ footer {
 	font-size:1em;
 	color: white;
 	width: 100%;
-	padding:10px;
+	padding:10px 0px 10px 0px;
 	display: flex;
 	justify-content: space-around;
 
