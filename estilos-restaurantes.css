@@ -79,10 +79,13 @@ h1{
 h2{
 	font-size: 1.5em;
 }
-p{
+main p{
 	font-family: "Inika", serif;
 	font-size: 1em;
 	color: #508B59;
+	background: #F9EEE6;
+	border-radius:18px;
+	padding:10px;
 }
 .bold{
 	font-size: 1em;
@@ -106,8 +109,6 @@ h5, article p {
 .restaurante{
 	width:65%;
 	height:290px;
-	border-radius:18px;
-	background: #F9EEE6;
 }
 .carrusel{
 	width:65%;
@@ -115,7 +116,7 @@ h5, article p {
 }
 .columnaizq{
 	width: 25%;
-	Height: 600px;
+	Height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content:flex-start;
@@ -125,24 +126,37 @@ h5, article p {
 }
 .datos{
 	width:70%;
-	height:90px;
-	border-radius:18px;
+	height:120px;
+	border-radius:15px;
 	background: #F9EEE6;
 	padding:20px;
+	margin:15px;
 }
 .horario{
 	width:70%;
-	height:80px;
+	height:110px;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
+	margin:15px;
 }
 .comentarios{
 	width:70%;
-	height:160px;
+	height:270px;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
+	margin:15px;
+}
+.boton{
+	width: 30%;
+	height: 30px;
+	background:#EC881D;
+	border:none;
+	border-radius:20px;
+	color: white;
+	font-family: "Original Surfer",cursive;
+	cursor: pointer;
 }
 /*------------------FOOTER-------------------*/
 
