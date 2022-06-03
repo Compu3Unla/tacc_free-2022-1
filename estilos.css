@@ -54,8 +54,12 @@ header nav ul li {
 	
 }
 
-nav li:hover ul{
-	display: block;
+nav li:hover .opciones{
+	display: flex;
+}
+
+nav li .opciones {
+	display: none;
 }
 
 .botoneraheader {
