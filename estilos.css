@@ -234,7 +234,7 @@ article {
 	flex-direction: column;
 }
 
-/*------------------MAIN RESTAURANTES-------------------*/
+/*------------------MAIN SINTAXIS PALERMO-------------------*/
 
 .mainrestaurantes {
 	display: flex;
@@ -250,7 +250,7 @@ article {
 	align-items:center;
 	padding:10px;
 	background:#EC881D;
-	padding-top: 150px;
+	padding-top: 450px;
 }
 
 .bold{
@@ -277,6 +277,8 @@ article {
 	background: #F9EEE6;
 	padding:20px;
 	margin:15px;
+	display: flex;
+	flex-direction: column;
 }
 .horario{
 	width:70%;
@@ -293,6 +295,8 @@ article {
 	background: #F9EEE6;
 	padding:20px;
 	margin:15px;
+	display: flex;
+	flex-direction: column;
 }
 
 .boton{
@@ -308,10 +312,12 @@ article {
 
 .sintaxis{
 	text-align: start;
-	padding-left: 250px;
+	padding-left:200px;
+	padding-top: 30px;
 }
-.mapa{
+.mapa, .carrusel {
 	padding-bottom: 200px;
+	padding-left:200px;
 }
 /*------------------ MAIN RECETAS-------------------*/
 
