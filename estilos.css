@@ -13,6 +13,20 @@ a {
 	color: white;
 }
 
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.paddingleft {
+	padding-left: 120px;
+}
+
 /*------------------HEADER-------------------*/
 
 header {
@@ -145,14 +159,15 @@ h8 {
 	font-family:'open-sans', "Alegreya Sans";
 	color: #508B59;
 	font-size: 1em;
+
 }
 
 p {
 	font-family: 'Inika', serif;
 	color: #508B59;
 	font-size: 1.2em;
-	padding-bottom: 60px;
-	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .columnaizq {
@@ -161,7 +176,7 @@ p {
 }
 
 .columnader {
-	width:100%;
+	width: 100%;
 	text-align: center;
 	padding-top: 100px;
 	justify-content: center;
@@ -169,12 +184,9 @@ p {
 
 /*------------------MAIN INICIO-------------------*/
 
-.sectionbienvenida {
-	display: flex;
-	flex-direction:row;
-}
 
-.maininicio{
+
+.maincolumnas{
 	max-width: 100%;
 	background-image: url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
@@ -203,7 +215,6 @@ p {
 }
 
 .registro {
-	display:flex;
 	justify-content: space-evenly;
 	font-family: 'Original Surfer', cursive;
 	color: white;
@@ -211,21 +222,16 @@ p {
 	padding-top: 30px;
 	}
 
-.botonizq {
+.boton {
 	background-color: #EC881D;
-	border-radius:30px;
+	border-radius: 30px;
 	border:none;
-	padding: 5px 10px 10px 10px;
-}
-
-.botonderech {
-	background-color: #EC881D;
-	border-radius:30px;
-	padding-bottom:30px;
-	border:none;
-	padding: 5px 10px 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	height: 45px;
 	
 }
+
 
 .textoquepodesencontrar {
 	width: 60%;
@@ -238,8 +244,6 @@ p {
 }
 
 .circulos {
-	display:flex;
-	flex-direction: row;
 	width: 100%;
 	justify-content: space-evenly;
 	padding-top: 50px;
@@ -256,7 +260,17 @@ article {
 
 .mainrestaurantes {
 	display: flex;
-	flex-direction:row;
+	flex-direction: column;
+}
+
+.imgprincipalsintaxis {
+	width: 100% !important;
+	height: auto;
+}
+
+.sintaxis2 {
+	display: flex;
+	flex-direction: row;
 }
 
 .aside {
@@ -268,7 +282,6 @@ article {
 	align-items:center;
 	padding:10px;
 	background:#EC881D;
-	padding-top: 450px;
 }
 
 .bold{
@@ -277,7 +290,7 @@ article {
 }
 
 .restaurante {
-	width:65%;
+	width: 85%;
 	height:290px;
 	background: #F9EEE6;
 	border-radius:18px;
@@ -290,7 +303,7 @@ article {
 }
 .datos{
 	width:70%;
-	height:120px;
+	height: 80px;
 	border-radius:15px;
 	background: #F9EEE6;
 	padding:20px;
@@ -300,11 +313,13 @@ article {
 }
 .horario{
 	width:70%;
-	height:110px;
+	height:130px;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
 	margin:15px;
+	display: flex;
+	flex-direction: column;
 }
 .comentarios{
 	width:70%;
@@ -317,26 +332,18 @@ article {
 	flex-direction: column;
 }
 
-.boton{
-	width: 30%;
-	height: 30px;
+.botonverforo{
+	height: 15px;
 	background:#EC881D;
 	border:none;
-	border-radius:20px;
 	color: white;
 	font-family: "Original Surfer",cursive;
 	cursor: pointer;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
-.sintaxis{
-	text-align: start;
-	padding-left:200px;
-	padding-top: 30px;
-}
-.mapa, .carrusel {
-	padding-bottom: 200px;
-	padding-left:200px;
-}
+
 /*------------------ MAIN RECETAS-------------------*/
 
 
