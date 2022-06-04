@@ -21,26 +21,27 @@ main{
 	width:60%;
 	padding-bottom:30px;
 	padding-right:120px;
-	margin-top:80px;
+	margin-top:170px;
 	font-family:"Inika", serif;
 }
 h1{
 	color:white;
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 .Controles{
 	width:60%;
 	background:#EC881D;
-	padding:10px;
+	padding:20px 5px 0px 0px;
 	margin-bottom:16px;
 	font-family:"Inika", serif;
 	border:none;
-	font-size:1.2em;
+	font-size:1em;
 }
 p{
 	color:white;
-	font-size:1.2em;
+	font-size:0.9em;
 	padding-bottom: 50px;
+	padding-top: 5px;
 }
 .Boton{
 	width:40%;
