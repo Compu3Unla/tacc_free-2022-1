@@ -51,7 +51,6 @@ header nav ul li {
 	position: absolute;
 	flex-direction: column;
 	top: 55px;
-	
 }
 
 nav li:hover .opciones{
@@ -62,14 +61,29 @@ nav li .opciones {
 	display: none;
 }
 
+.submenu {
+	width: 100px;
+}
+
 .botoneraheader {
 	display: flex;
 	text-decoration: none;
 	color:black;
 	padding-right: 60px;
 	padding-left: 60px;
+	height: 60px;
+	align-items: center;
 }
 
+.botoneraheader ul, .botoneraheader ul li{
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+
+.botoneraheader ul li{
+	cursor: pointer;
+}
 /*------------------MAIN GENERAL-------------------*/
 
 h1 {
