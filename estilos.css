@@ -354,14 +354,18 @@ article {
 }
 
 .botonverforo{
+	width:35%;
 	height: 15px;
 	background:#EC881D;
 	border:none;
+	border-radius:20px;
 	color: white;
 	font-family: "Original Surfer",cursive;
 	cursor: pointer;
 	padding-left: 25px;
 	padding-right: 25px;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 
 
@@ -371,8 +375,15 @@ article {
 
 
 
+/*----------------- MAIN PIZZA-------------------*/
+.información ul{
+	color:#508B59;
+}
 
-
+.receta h3{
+	color:#508B59;
+	font-size:4em;
+}
 /*------------------ MAIN FORO-------------------*/
 
 
@@ -382,30 +393,59 @@ article {
 	padding-top: 150px;
 	padding-bottom: 0px;
 }
-
 .forotacfree{
 	width: 100%;
 	text-align: center;
 	font-size: 3em;
 	padding: 0px;
 }
+h3{
+	color:#EC881D;
+}
+.sitios p{
+	color:#EC881D;
+}
+
+.personas h4{
+	color:#508B59;
+}
 .preguntas a{
 	width:15%;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	padding-left:10px;
+	padding-right:10px;
 	color:white;
 	background-color:#508B59;
 	border-radius:30px;
+}
+.sitios{
+	padding-left:50px;
+	padding-right:50px;
 }
 .sitios a{
 	width:8%;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
 	color:white;
 	background-color:#508B59;
 	border-radius:30px;
 }
-
+article {
+	background-color: #FDF5EA;
+}
+.personas{
+	height:160px;
+	border:solid;
+	border-color: #C47735;
+	border-radius:30px;
+	margin-left: 50px;
+	margin-right:50px;
+	margin-top:20px;
+	padding:30px;
+}
 /*------------------FOOTER-------------------*/
 
 
