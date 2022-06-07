@@ -241,6 +241,10 @@ article {
 	flex-direction:row;
 }
 
+.imgprincipal {
+	width: 100%;
+}
+
 .aside {
 	width: 25%;
 	Height: auto;
