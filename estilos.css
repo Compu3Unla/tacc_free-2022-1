@@ -396,7 +396,11 @@ input type, label{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-
+img:hover{
+    border:10px solid;
+    border-radius:100%;
+    border-color: #508B59;
+}
 .sectioncards {
 	padding: 40px 50px 30px 50px;
 	justify-content: space-around;
@@ -407,9 +411,6 @@ input type, label{
 	padding-top: 20px;
 }
 
-.titulorecetas{
-	color: #F9EEE6;
-}
 
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
 
