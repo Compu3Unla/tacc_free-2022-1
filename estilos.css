@@ -509,15 +509,22 @@ img:hover{
 
 /*------------------ MAIN FORO-------------------*/
 
-.foro{
+.foro {
 	background-color:#F9EEE6; 
+
 }
+
+.cajafoto {
+	padding-left: 50px;
+	padding-top:100px;
+}
+
 
 .forobienvenido{
 	width: 100%;
 	text-align: center;
-	padding-top: 150px;
 	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 .forotacfree{
 	width: 100%;
@@ -568,6 +575,7 @@ img:hover{
 	margin-right:50px;
 	margin-top:20px;
 	padding:30px;
+	display:flex;
 }
 /*------------------FOOTER-------------------*/
 
