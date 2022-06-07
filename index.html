@@ -9,69 +9,69 @@
 </head>
 
 <body>
+	
 	<header>
 		
-		<div>
-			<a href="gracias por unirte.html"><img src="img/logo a inicio.png" width="61" height="35" alt="logoheader"/></a>
+		<div class="logobotonera">
+			<a href="gracias por unirte.html"><img src="img/logo a inicio 2.png" width="61" height="35" alt="logoheader"/></a>
 		</div>
 		
 		<nav class="botoneraheader">
 			<ul>
-				<li><a href="#">Restaurantes</a></li>
-				<li><a href="#">Recetas</a>
+				<li><a href="restaurantes.html">Restaurantes</a></li>
+				<li><a href="recetas.html">Recetas</a>
 					<ul class="opciones">
-						<li><a href="#">Dulces</a></li>
-						<li><a href="#">Saladas</a></li>
+						<li class="submenu"><a href="recetas dulces.html">Dulces</a></li>
+						<li class="submenu"><a href="recetas saladas.html">Saladas</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Foro</a></li>
-				<li><a href="#">Mi perfil</a></li>
+				<li><a href="foro.html">Foro</a></li>
+				<li><a href="gracias por unirte.html">Mi perfil</a></li>
 			</ul>
 		</nav>
 		
 	</header>
 	
-	<main class="maininicio">
+	<main class="maincolumnas flex-column">
 		
-		<section class="sectionbienvenida">
+		<section class="flex-row">
+			
 			<article class="columnaizq">
 			</article>
 		
-			<section class="columnader">
-			
-				<div>
+			<section class="columnader flex-column">
+				
 					<h1>¿Qué podés encontrar?</h1>
 					<p class="textoquepodesencontrar">Variedad de recetas y restaurantes aptos para  celíacos, con la posibilidad de ajustar la búsqueda a  tus gustos. Además, vas a poder comunicarte con otras personas, compartir consejos y experiencias. </p>
 			
-					<nav class="registro">
-						<ul class="botonizq">
+					<nav class="registro flex-row">
+						<ul class="boton">
 							<li><a href="iniciar-sesion.html">Iniciar sesion</a></li>
 						</ul>
-						<ul class="botonderech">
+						<ul class="boton">
 							<li><a href="registrarse.html">Registrarse</a></li>
 						</ul>
 					</nav>
 				
-				</div>
-			
-				<div>
 					<h2>¿Sabes lo que es  la contaminación cruzada?</h2>
 					<p class="textosabesloquees">La celiaquia es una reacción inmunológica ante la ingesta de glúten, una proteína presente en el trigo, la cebada y el centeno. Y como sabemos lo difícil que es encontrar que comer, en este sitio vas a encontrar diferentes opciones, además de encontrar restaurantes que no tengan la posibilidad de una contaminación cruzada, es decir que un alimento que no contenga gluten igual puede contaminarse por estar en contacto con otros alimentos que lo contengan o bien, por utilizar los mismos utensilios para cocinar o manipularlos, sin higienizarlos correctamente.</p>
-				</div>
-			
+				
 			</section>
 			
 		</section>
 		
-		<section class="circulos">
-				<article>
-					<img src="img/restaurantes/osanegra.png" width="320" height="320" alt="imgresto"/>
-					<h3>Restaurantes</h3>
-				</article>
-				<div>
-					<img src="img/recetas saladas/ñoquis.png" width="320" height="320" alt="imgreceta"/>
-					<h3>Recetas</h3>
-				</div>
+		<section class="circulos flex-row">
+			
+				<a href="restaurantes.html"><article>
+					<img src="img/restaurantes/osanegra.png" width="320" height="320" alt="restaurante"/>
+					<h3 class="letrasblancas">Restaurantes</h3>
+				</article></a>
+			
+				<a href="recetas.html"><div>
+					<img src="img/portadas circulares grandes/portadarecetas.png" width="320" height="320" alt="imgreceta"/>
+					<h3 class="letrasnaranjas">Recetas</h3>
+				</div></a>
+			
 		</section>
 		
 	</main>
@@ -79,7 +79,7 @@
 	<footer>
 		
 		<section>
-			<img src="img/logo a inicio.png" width="81" height="43" alt="logo"/>
+			<img src="img/logo a inicio 2.png" width="61" height="36" alt="logo"/>
 			<h5> © Tacc Free 2022 | Todos los derechos reservados</h5>
 		</section>
 		

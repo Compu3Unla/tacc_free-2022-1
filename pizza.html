@@ -9,44 +9,45 @@
 </head>
 
 <body>
-	
 	<header>
 		
-		<div>
-			<a href="gracias por unirte.html"><img src="img/logo a inicio.png" width="61" height="35" alt="logoheader"/></a>
+		<div class="logobotonera">
+			<a href="gracias por unirte.html"><img src="img/logo a inicio 2.png" width="61" height="35" alt="logoheader"/></a>
 		</div>
 		
 		<nav class="botoneraheader">
 			<ul>
-				<li><a href="#">Restaurantes</a></li>
-				<li><a href="#">Recetas</a>
+				<li><a href="restaurantes.html">Restaurantes</a></li>
+				<li><a href="recetas.html">Recetas</a>
 					<ul class="opciones">
-						<li><a href="#">Dulces</a></li>
-						<li><a href="#">Saladas</a></li>
+						<li class="submenu"><a href="recetas dulces.html">Dulces</a></li>
+						<li class="submenu"><a href="recetas saladas.html">Saladas</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Foro</a></li>
-				<li><a href="#">Mi perfil</a></li>
+				<li><a href="foro.html">Foro</a></li>
+				<li><a href="gracias por unirte.html">Mi perfil</a></li>
 			</ul>
 		</nav>
 		
 	</header>
 	
-	<main>
-		<section class="datos">
+	<main class="flex-row">
+		<section class="información">
 			<h1>Pizza</h1>
 			<ul>
 				<li><span class="bold">Tiempo</span>50 min</li>
 				<li><span class="bold">Dificultad</span>fácil</li>
 				<li><span class="bold">Porción</span>5 personas</li>
 			</ul>
-			<h2>¿De qué vamos a hacer la pizza hoy? </h2>
-			<p>¡Albahaca y provolone!
+			<article>
+				<h2>¿De qué vamos a hacer la pizza hoy?</h2>
+				<p>¡Albahaca y provolone!
 
-				El queso de origen italiano le da un sabor saladito a la pizza junto a la frescura que suma la albahaca. FIESTA DE SABORES.
+					El queso de origen italiano le da un sabor saladito a la pizza junto a la frescura que suma la albahaca. FIESTA DE SABORES.
 
-				Ya sea que es una pizza para celíacos o la prepares porque no consumís tacc por elección, esta pizza sin harina de trigo es todos lo que está bien. ¡Manos a la masa!
-				La pizza casera debería ser considerada un tesoro de la humanidad, cada una de sus variantes se merece un lugar en el podio: la clásica, vegetariana, vegana y claro gluten free.</p>
+					Ya sea que es una pizza para celíacos o la prepares porque no consumís tacc por elección, esta pizza sin harina de trigo es todos lo que está bien. ¡Manos a la masa!
+					La pizza casera debería ser considerada un tesoro de la humanidad, cada una de sus variantes se merece un lugar en el podio: la clásica, vegetariana, vegana y claro gluten free.</p>
+			</article>
 		</section>
 		
 		<section class="receta">
@@ -55,7 +56,7 @@
 
 				-Realizá un hueco en el centro y sumá la levadura junto al agua.
 
-				-Formá una masa y dejá reposar por 15 minutos cubierta con papel film.  Es una masa pegajosa, no te preocupes..
+				-Formá una masa y dejá reposar por 15 minutos cubierta con papel film.  Es una masa pegajosa, no te preocupes.
 			</p>
 			<h3>1</h3>
 			<h2>Horneado de la masa madre</h2>
@@ -67,39 +68,38 @@
 			<h3>2</h3>
 			<h2>Montaje final pizza</h2>
 			<p>-Retirá del horno y cubrí con el queso fresco, el tomate, la albahaca y el queso provolone.
-
 			-Llevá nuevamente al horno hasta que todo se gratine.
-
 			-Rociá con el aceite de oliva, orégano, ají molido y serví.</p>
 			<h3>3</h3>
 		</section>
-		
-		<section>
-			<h4>Ingredientes</h4>
-			<p>300 gramos de premezcla autorizada sin tacc
-			80 gramos de Maizena
-			150 a 180 cc de agua
-			25 gramos de levadura fresca sin tacc
-			½ taza de salsa para pizza
-			3 cucharadas de aceite de oliva
-			2 tomates cortados en rodajas
-			Albahaca fresca
-			100 gramos de queso fresco
-			150 gramos de queso provolone
-			1 cucharada de orégano
-			Ají molido</p>
-		</section>
-		
-		<section>
-			<h4>Comentarios</h4>
-			<h5>Josefina</h5>
-			<p>Tremenda receta para compartir en familia.</p>
-			<h5>Martín</h5>
-			<p>Súper rica y muy fácil de hacer.</p>
-			<input class="boton" type="button" value="Ver foro">
-			<h4>Contanos que te pareció esta receta</h4>
-			<h5>Comentar</h5>
-		</section>
+		<aside>
+			<section class="ingredientes">
+				<h4>Ingredientes</h4>
+				<p>300 gramos de premezcla autorizada sin tacc
+				80 gramos de Maizena
+				150 a 180 cc de agua
+				25 gramos de levadura fresca sin tacc
+				½ taza de salsa para pizza
+				3 cucharadas de aceite de oliva
+				2 tomates cortados en rodajas
+				Albahaca fresca
+				100 gramos de queso fresco
+				150 gramos de queso provolone
+				1 cucharada de orégano
+				Ají molido</p>
+			</section>
+
+			<section class="comentarios">
+				<h4>Comentarios</h4>
+				<h5>Josefina</h5>
+				<p>Tremenda receta para compartir en familia.</p>
+				<h5>Martín</h5>
+				<p>Súper rica y muy fácil de hacer.</p>
+				<a class="botonverforo" target="_blank" href="foro.html">Ver foro</a>
+				<h4>Contanos que te pareció esta receta</h4>
+				<h5>Comentar</h5>
+			</section>
+		</aside>
 		<section>
 			<h6>ANTERIOR</h6>
 			<p>Croquetas</p>
@@ -111,7 +111,7 @@
 
 	<footer>
 		<section>
-			<img src="img/logo a inicio.png" width="81" height="43" alt="logo"/>
+			<img src="img/logo a inicio 2.png" width="61" height="36" alt="logo"/>
 			<h5> © Tacc Free 2022 | Todos los derechos reservados</h5>
 		</section>
 		

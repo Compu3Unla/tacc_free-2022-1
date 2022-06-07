@@ -13,7 +13,23 @@ a {
 	color: white;
 }
 
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.paddingleft {
+	padding-left: 120px;
+}
+
+
 /*------------------HEADER-------------------*/
+
 
 header {
 	background-color: #508B59;
@@ -46,27 +62,51 @@ header nav ul li {
 	
 }
 
+.logobotonera{
+	padding-left: 25px;
+}
+
 .opciones{
 	display: flex;
 	position: absolute;
 	flex-direction: column;
 	top: 55px;
-	
 }
 
-nav li:hover ul{
-	display: block;
+nav li:hover .opciones{
+	display: flex;
+}
+
+nav li .opciones {
+	display: none;
+}
+
+.submenu {
+	width: 100px;
 }
 
 .botoneraheader {
 	display: flex;
 	text-decoration: none;
 	color:black;
-	padding-right: 60px;
+	padding-right: 25px;
 	padding-left: 60px;
+	height: 60px;
+	align-items: center;
+}
+
+.botoneraheader ul, .botoneraheader ul li{
+	display: flex;
+	height: 60px;
+	align-items: center;
+}
+
+.botoneraheader ul li{
+	cursor: pointer;
 }
 
 /*------------------MAIN GENERAL-------------------*/
+
 
 h1 {
 	font-family: 'Original Surfer', cursive;
@@ -81,7 +121,7 @@ h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
 	font-size: 2em;
-	padding-top: 130px;
+	padding-top: 100px;
 	padding-bottom: 20px;
 	width: 90%;
 }
@@ -127,14 +167,15 @@ h8 {
 	font-family:'open-sans', "Alegreya Sans";
 	color: #508B59;
 	font-size: 1em;
+
 }
 
 p {
 	font-family: 'Inika', serif;
 	color: #508B59;
 	font-size: 1.2em;
-	padding-bottom: 60px;
-	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .columnaizq {
@@ -143,20 +184,24 @@ p {
 }
 
 .columnader {
-	width:100%;
+	width: 100%;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 150px;
 	justify-content: center;
+}
+
+.letrasblancas {
+	color: white;
+}
+
+.letrasnaranjas {
+	color: #EC881D;
 }
 
 /*------------------MAIN INICIO-------------------*/
 
-.sectionbienvenida {
-	display: flex;
-	flex-direction:row;
-}
 
-.maininicio{
+.maincolumnas{
 	max-width: 100%;
 	background-image: url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
@@ -185,7 +230,6 @@ p {
 }
 
 .registro {
-	display:flex;
 	justify-content: space-evenly;
 	font-family: 'Original Surfer', cursive;
 	color: white;
@@ -193,35 +237,30 @@ p {
 	padding-top: 30px;
 	}
 
-.botonizq {
+.boton {
 	background-color: #EC881D;
-	border-radius:30px;
+	border-radius: 30px;
 	border:none;
-	padding: 5px 10px 10px 10px;
-}
-
-.botonderech {
-	background-color: #EC881D;
-	border-radius:30px;
-	padding-bottom:30px;
-	border:none;
-	padding: 5px 10px 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	height: 45px;
 	
 }
 
 .textoquepodesencontrar {
 	width: 60%;
 	margin-left: 100px;
+	padding-bottom: 80px;
 }
 
 .textosabesloquees {
 	width: 80%;
 	margin-left: 25px;
+	padding-bottom: 90px;
 }
 
 .circulos {
-	display:flex;
-	flex-direction: row;
 	width: 100%;
 	justify-content: space-evenly;
 	padding-top: 50px;
@@ -234,11 +273,151 @@ article {
 	flex-direction: column;
 }
 
+/*------------------INICIAR SESION REGISTRARSE-------------------*/
+
+body{
+	background: #EC881D;
+}
+
+main{
+	display:flex;
+	flex-direction: row;
+	font-family:"Inika", serif;
+}
+
+.logo{
+	width:40%;
+	margin:130px;
+}
+.Formulario-inicio{
+	width: 60%;
+	height: auto; 
+	padding-bottom:30px;
+	padding-right:120px;
+	margin-top:170px;
+	font-family:"Inika", serif;
+}
+
+.Formulario-registro{
+	width:60%;
+	padding-bottom:30px;
+	padding-right:120px;
+	margin-top:80px;
+	font-family:"Inika", serif;
+}
+
+.Controles{
+	background:#EC881D;
+	padding:10px 5px 0px 0px;
+	margin-bottom:16px;
+	border:none;
+	font-size:1em;
+	display: flex;
+	flex-direction: row;
+}
+.Controlesregistro{
+	width:60%;
+	background:#EC881D;
+	padding:30px;
+	margin-bottom:5px;
+	font-family:"Inika", serif;
+	border:none;
+	font-size:1.2em;
+}
+
+.Boton-iniciarsesion{
+	width:40%;
+	height:60px;
+	border-radius:30px;
+	background:white;
+	color:#508B59;
+	font-size: 1.6em;
+	margin-bottom:16px;
+	border:none;
+	font-family:"Original Surfer",cursive;
+	margin-top:10px;
+	cursor:pointer;
+}
+	
+.olvidaste-contraseña, label{
+	color:white;
+}
+label{
+	font-size:1.5em;
+	margin-bottom:10px;
+	padding-top: 60px;
+}
+
+.olvidaste-contraseña{
+	text-decoration:none;
+	background: #EC881D;
+	border: none;
+	font-size:0.9em;
+	padding-bottom: 50px;
+	margin-top:20px;
+	cursor: pointer;
+}
+hr{
+	margin-top:10px;
+	padding-bottom: 0px;
+}
+
+label{
+	font-size:1.2em;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	
+}
+
+input type, label{
+	color:white;
+} 
+.Boton-registrarse{
+	width:40%;
+	height:60px;
+	border-radius:30px;
+	background:white;
+	color:#508B59;
+	margin-bottom:16px;
+	border:none;
+	font-size:1.5em;
+	font-family:"Original Surfer",cursive;
+	margin-top: 70px;
+}
+
+/*------------------MAIN CARDS-------------------*/
+
+.maincards {
+	padding-top: 60px;
+}
+
+.cards {
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+img:hover{
+    border:10px solid;
+    border-radius:100%;
+    border-color: #508B59;
+}
+.sectioncards {
+	padding: 40px 50px 30px 50px;
+	justify-content: space-around;
+}
+
+.recetasdulcestitulos{
+	color:#F9EEE6;
+	padding-top: 20px;
+}
+
+
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
 
-.mainrestaurantes {
-	display: flex;
-	flex-direction:row;
+
+.imgprincipalsintaxis {
+	width: 100% !important;
+	height: auto;
 }
 
 .imgprincipal {
@@ -254,7 +433,6 @@ article {
 	align-items:center;
 	padding:10px;
 	background:#EC881D;
-	padding-top: 450px;
 }
 
 .bold{
@@ -263,7 +441,7 @@ article {
 }
 
 .restaurante {
-	width:65%;
+	width: 85%;
 	height:290px;
 	background: #F9EEE6;
 	border-radius:18px;
@@ -276,7 +454,7 @@ article {
 }
 .datos{
 	width:70%;
-	height:120px;
+	height: 80px;
 	border-radius:15px;
 	background: #F9EEE6;
 	padding:20px;
@@ -286,11 +464,13 @@ article {
 }
 .horario{
 	width:70%;
-	height:110px;
+	height:130px;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
 	margin:15px;
+	display: flex;
+	flex-direction: column;
 }
 .comentarios{
 	width:70%;
@@ -303,35 +483,35 @@ article {
 	flex-direction: column;
 }
 
-.boton{
-	width: 30%;
-	height: 30px;
+.botonverforo{
+	width:35%;
+	height: 15px;
 	background:#EC881D;
 	border:none;
 	border-radius:20px;
 	color: white;
 	font-family: "Original Surfer",cursive;
 	cursor: pointer;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 
-.sintaxis{
-	text-align: start;
-	padding-left:200px;
-	padding-top: 30px;
+
+/*------------------ MAIN RECETAS DULCES-------------------*/
+
+
+/*----------------- MAIN PIZZA-------------------*/
+.información ul{
+	color:#508B59;
 }
-.mapa, .carrusel {
-	padding-bottom: 200px;
-	padding-left:200px;
-}
-/*------------------ MAIN RECETAS-------------------*/
-
-
-
-
-
-
 
 /*------------------ MAIN FORO-------------------*/
+
+.foro{
+	background-color:#F9EEE6; 
+}
 
 .forobienvenido{
 	width: 100%;
@@ -339,14 +519,58 @@ article {
 	padding-top: 150px;
 	padding-bottom: 0px;
 }
-
 .forotacfree{
 	width: 100%;
 	text-align: center;
 	font-size: 3em;
 	padding: 0px;
 }
+
+.sitios p{
+	color:#EC881D;
+}
+
+.personas h4{
+	color:#508B59;
+}
+.preguntas a{
+	width:15%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+	background-color:#508B59;
+	border-radius:30px;
+}
+.sitios{
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.sitios a{
+	width:8%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:25px;
+	padding-right:25px;
+	color:white;
+	background-color:#508B59;
+	border-radius:30px;
+}
+
+.personas{
+	height:160px;
+	border:solid;
+	border-color: #C47735;
+	border-radius:30px;
+	margin-left: 50px;
+	margin-right:50px;
+	margin-top:20px;
+	padding:30px;
+}
 /*------------------FOOTER-------------------*/
+
 
 footer {
 	background-color: #EC881D;
