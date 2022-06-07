@@ -89,7 +89,7 @@ nav li .opciones {
 	display: flex;
 	text-decoration: none;
 	color:black;
-	padding-right: 60px;
+	padding-right: 25px;
 	padding-left: 60px;
 	height: 60px;
 	align-items: center;
@@ -273,9 +273,119 @@ article {
 	flex-direction: column;
 }
 
+/*------------------INICIAR SESION REGISTRARSE-------------------*/
 
+body{
+	background: #EC881D;
+}
 
-/*------------------MAIN RESTAURANTES-------------------*/
+main{
+	display:flex;
+	flex-direction: row;
+	font-family:"Inika", serif;
+}
+
+.logo{
+	width:40%;
+	margin:130px;
+}
+.Formulario-inicio{
+	width: 60%;
+	height: auto; 
+	padding-bottom:30px;
+	padding-right:120px;
+	margin-top:170px;
+	font-family:"Inika", serif;
+}
+
+.Formulario-registro{
+	width:60%;
+	padding-bottom:30px;
+	padding-right:120px;
+	margin-top:80px;
+	font-family:"Inika", serif;
+}
+
+.Controles{
+	background:#EC881D;
+	padding:10px 5px 0px 0px;
+	margin-bottom:16px;
+	border:none;
+	font-size:1em;
+	display: flex;
+	flex-direction: row;
+}
+.Controlesregistro{
+	width:60%;
+	background:#EC881D;
+	padding:30px;
+	margin-bottom:5px;
+	font-family:"Inika", serif;
+	border:none;
+	font-size:1.2em;
+}
+
+.Boton-iniciarsesion{
+	width:40%;
+	height:60px;
+	border-radius:30px;
+	background:white;
+	color:#508B59;
+	font-size: 1.6em;
+	margin-bottom:16px;
+	border:none;
+	font-family:"Original Surfer",cursive;
+	margin-top:10px;
+	cursor:pointer;
+}
+	
+.olvidaste-contraseña, label{
+	color:white;
+}
+label{
+	font-size:1.5em;
+	margin-bottom:10px;
+	padding-top: 60px;
+}
+
+.olvidaste-contraseña{
+	text-decoration:none;
+	background: #EC881D;
+	border: none;
+	font-size:0.9em;
+	padding-bottom: 50px;
+	margin-top:20px;
+	cursor: pointer;
+}
+hr{
+	margin-top:10px;
+	padding-bottom: 0px;
+}
+
+label{
+	font-size:1.2em;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	
+}
+
+input type, label{
+	color:white;
+} 
+.Boton-registrarse{
+	width:40%;
+	height:60px;
+	border-radius:30px;
+	background:white;
+	color:#508B59;
+	margin-bottom:16px;
+	border:none;
+	font-size:1.5em;
+	font-family:"Original Surfer",cursive;
+	margin-top: 70px;
+}
+
+/*------------------MAIN CARDS-------------------*/
 
 .maincards {
 	padding-top: 60px;
@@ -292,9 +402,16 @@ article {
 	justify-content: space-around;
 }
 
+.recetasdulcestitulos{
+	color:#F9EEE6;
+	padding-top: 20px;
+}
+
+.titulorecetas{
+	color: #F9EEE6;
+}
+
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
-
-
 
 
 .imgprincipalsintaxis {
@@ -377,10 +494,7 @@ article {
 }
 
 
-/*------------------ MAIN RECETAS-------------------*/
-
-
-
+/*------------------ MAIN RECETAS DULCES-------------------*/
 
 
 /*----------------- MAIN PIZZA-------------------*/
@@ -390,6 +504,9 @@ article {
 
 /*------------------ MAIN FORO-------------------*/
 
+.foro{
+	background-color:#F9EEE6; 
+}
 
 .forobienvenido{
 	width: 100%;
@@ -425,6 +542,7 @@ article {
 	padding-left:50px;
 	padding-right:50px;
 }
+
 .sitios a{
 	width:8%;
 	padding-top: 5px;
