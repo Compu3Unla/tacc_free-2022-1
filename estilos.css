@@ -511,12 +511,19 @@ img:hover{
 
 .foro {
 	background-color:#F9EEE6; 
+	padding-top:100px;
 
 }
+.imgdelaizq {
+	align-content: space-between;
+}
 
-.cajafoto {
-	padding-left: 50px;
-	padding-top:100px;
+.infopresentacion {
+	padding-top:30px;
+	padding-left:250px;
+	width: 50%;
+	text-align: center;
+	
 }
 
 
@@ -526,13 +533,30 @@ img:hover{
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
-.forotacfree{
+.forotacfree  {
 	width: 100%;
 	text-align: center;
 	font-size: 3em;
 	padding: 0px;
 }
 
+.subtitulosforo {
+	font-size:2em;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	padding-top:150px;
+}
+
+.usuariosforo {
+	display: flex;
+	flex-direction: column;
+	padding-top: 150px;
+	align-content: space-between;
+}
+.infopreguntas {
+	padding-top:50px;
+}
 .sitios p{
 	color:#EC881D;
 }
@@ -540,8 +564,9 @@ img:hover{
 .personas h4{
 	color:#508B59;
 }
-.preguntas a{
-	width:15%;
+.botonesforo {
+	
+	width:20%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left:10px;
@@ -550,12 +575,18 @@ img:hover{
 	background-color:#508B59;
 	border-radius:30px;
 }
-.sitios{
-	padding-left:50px;
-	padding-right:50px;
+.infopreguntas p {
+	padding-bottom: 25px;
+	
 }
-
-.sitios a{
+.imgsitios {
+	padding-top:100px;
+	
+}
+.sitiosrecomendados {
+	padding-top: 50px;
+}
+.sitiosrecomendados a {
 	width:8%;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -566,17 +597,8 @@ img:hover{
 	border-radius:30px;
 }
 
-.personas{
-	height:160px;
-	border:solid;
-	border-color: #C47735;
-	border-radius:30px;
-	margin-left: 50px;
-	margin-right:50px;
-	margin-top:20px;
-	padding:30px;
-	display:flex;
-}
+
+
 /*------------------FOOTER-------------------*/
 
 
