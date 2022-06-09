@@ -114,7 +114,6 @@ h1 {
 	font-size: 2.5em;
 	padding-top: 40px;
 	padding-bottom: 20px;
-	width: 90%;
 }
 
 h2 {
@@ -123,7 +122,6 @@ h2 {
 	font-size: 2em;
 	padding-top: 100px;
 	padding-bottom: 20px;
-	width: 90%;
 }
 
 h3 {
@@ -178,6 +176,21 @@ p {
 	padding-top: 10px;
 }
 
+h11 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 2em;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+h12 {
+	font-family: 'Original Surfer', cursive;
+	color: #508B59;
+	font-size: 2.5em;
+	padding-bottom: 20px;
+}
+
 .columnaizq {
 	width: 100%;
 	align-content: center;
@@ -196,6 +209,10 @@ p {
 
 .letrasnaranjas {
 	color: #EC881D;
+}
+
+.letrasverdes {
+	color: #508B59;
 }
 
 /*------------------MAIN INICIO-------------------*/
@@ -274,10 +291,6 @@ article {
 }
 
 /*------------------INICIAR SESION REGISTRARSE-------------------*/
-
-body{
-	background: #EC881D;
-}
 
 main{
 	display:flex;
@@ -389,6 +402,7 @@ input type, label{
 
 .maincards {
 	padding-top: 60px;
+	background-color: white;
 }
 
 .cards {
@@ -396,21 +410,17 @@ input type, label{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-img:hover{
+
+.selecciondeimagenes:hover {
     border:10px solid;
     border-radius:100%;
     border-color: #508B59;
 }
+
 .sectioncards {
 	padding: 40px 50px 30px 50px;
 	justify-content: space-around;
 }
-
-.recetasdulcestitulos{
-	color:#F9EEE6;
-	padding-top: 20px;
-}
-
 
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
 
@@ -432,7 +442,7 @@ img:hover{
 	justify-content:flex-start;
 	align-items:center;
 	padding:10px;
-	background:#EC881D;
+	background: #EC881D;
 }
 
 .bold{
@@ -445,7 +455,7 @@ img:hover{
 	height:290px;
 	background: #F9EEE6;
 	border-radius:18px;
-	padding:10px;
+	padding: 25px;
 }
 
 .textoquepodesencontrarbienvenida{
@@ -486,7 +496,7 @@ img:hover{
 .botonverforo{
 	width:35%;
 	height: 15px;
-	background:#EC881D;
+	background: #EC881D;
 	border:none;
 	border-radius:20px;
 	color: white;
@@ -504,98 +514,94 @@ img:hover{
 
 /*----------------- MAIN PIZZA-------------------*/
 .información ul{
-	color:#508B59;
+	color: #508B59;
 }
 
 /*------------------ MAIN FORO-------------------*/
 
-.foro {
-	background-color:#F9EEE6; 
-	padding-top:100px;
-
-}
-.imgdelaizq {
-	align-content: space-between;
-}
-
-.infopresentacion {
-	padding-top:30px;
-	padding-left:250px;
-	width: 50%;
-	text-align: center;
+#encabezadoforo {
 	
+gap: 50px;
+	padding-left: 50px;
 }
 
-
-.forobienvenido{
-	width: 100%;
+h9 {
+	font-family: 'Inika', serif;
+	color: #EC881D;
+	font-size: 1.2em;
+	width: 60%;
 	text-align: center;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
-.forotacfree  {
-	width: 100%;
-	text-align: center;
-	font-size: 3em;
-	padding: 0px;
+    padding-top: 40px;
 }
 
-.subtitulosforo {
-	font-size:2em;
-	text-align: center;
-	width: 100%;
-	padding: 0px;
-	padding-top:150px;
+.introforo {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.usuariosforo {
+.foro {
+	background-color: white;
+	padding-top: 100px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+
+.preguntas {
+	margin: 20px 40px 20px 40px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 30px;
+	border-color: #EC881D;
+	padding-left: 50px;
+	padding-right: 50px;
+	gap: 60px;
+}
+
+h10 {
+	font-family: 'Inika', serif;
+	color: #508B59;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+
+.divbotonesforo {
 	display: flex;
 	flex-direction: column;
-	padding-top: 150px;
-	align-content: space-between;
-}
-.infopreguntas {
-	padding-top:50px;
-}
-.sitios p{
-	color:#EC881D;
+	justify-content: flex-end;
 }
 
-.personas h4{
-	color:#508B59;
+.fondocremita {
+	background-color: #F9EEE6;
+	margin-top: 30px;
+	padding-bottom: 60px;
 }
+
 .botonesforo {
-	
-	width:20%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:10px;
-	padding-right:10px;
-	color:white;
+	height: 30px;
+	width: 210px;
 	background-color:#508B59;
 	border-radius:30px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 50px;
 }
-.infopreguntas p {
-	padding-bottom: 25px;
-	
-}
-.imgsitios {
-	padding-top:100px;
-	
-}
+
 .sitiosrecomendados {
+	gap: 130px;
+	padding-left: 100px;
+	padding-right: 50px;
 	padding-top: 50px;
 }
-.sitiosrecomendados a {
-	width:8%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left:25px;
-	padding-right:25px;
-	color:white;
-	background-color:#508B59;
-	border-radius:30px;
-}
+
 
 
 
