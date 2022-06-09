@@ -491,6 +491,7 @@ input type, label{
 	margin:15px;
 	display: flex;
 	flex-direction: column;
+	
 }
 
 .botonverforo{
@@ -517,6 +518,37 @@ input type, label{
 	color: #508B59;
 }
 
+.imgprincipalpizza {
+	width: 100% !important;
+	height: auto;
+}
+
+.ladoizqpizza {
+	background-color:#EC881D;
+	width:70%;
+}
+.ingredientes {
+	width:70%;
+	height:400px;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+	padding-top:40px;
+	margin:15px;
+	
+}
+.comentarios{
+	width:70%;
+	height:270px;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+	margin:15px;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
 /*------------------ MAIN FORO-------------------*/
 
 #encabezadoforo {
