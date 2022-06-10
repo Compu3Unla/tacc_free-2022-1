@@ -51,7 +51,6 @@ a {
 
 /*------------------HEADER-------------------*/
 
-
 header {
 	background-color: #508B59;
 	height: 60px;
@@ -60,7 +59,6 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
-	
 }
 
 header div {
@@ -80,7 +78,6 @@ header nav ul li {
 	float: left;
 	justify-content: flex-end;
 	padding-left: 5px;
-	
 }
 
 .logobotonera{
@@ -128,7 +125,6 @@ nav li .opciones {
 
 /*------------------MAIN GENERAL-------------------*/
 
-
 h1 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
@@ -140,7 +136,7 @@ h1 {
 h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
-	font-size: 2em;
+	font-size: 1.7em;
 	padding-top: 100px;
 	padding-bottom: 20px;
 }
@@ -182,7 +178,7 @@ h7 {
 	font-size: 1em;
 	font-weight: 700;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 }
 
 h8 {
@@ -191,7 +187,6 @@ h8 {
 	font-size: 1em;
 	padding-bottom: 10px;
 	padding-top: 10px;
-
 }
 
 p {
@@ -257,7 +252,7 @@ h12 {
 
 .maincolumnas{
 	max-width: 100%;
-	background-image: url("img/forma fondo.jpg");
+	background-image:url("img/forma fondo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% auto;
@@ -288,8 +283,8 @@ h12 {
 	font-family: 'Original Surfer', cursive;
 	color: white;
 	font-size: 1.4em;
-	padding-top: 30px;
-	}
+	padding-top: 5px;
+}
 
 .boton {
 	background-color: #EC881D;
@@ -299,18 +294,17 @@ h12 {
 	padding-right: 35px;
 	padding-top: 10px;
 	height: 45px;
-	
 }
 
 .textoquepodesencontrar {
-	width: 60%;
-	margin-left: 100px;
-	padding-bottom: 80px;
+	width: 70%;
+	margin-left: 95px;
+	padding-bottom: 60px;
 }
 
 .textosabesloquees {
 	width: 80%;
-	margin-left: 25px;
+	margin-left: 55px;
 	padding-bottom: 90px;
 }
 
@@ -327,6 +321,33 @@ article {
 	flex-direction: column;
 }
 
+.gracias{
+	padding-top: 110px;
+}
+
+.preguntainicio{
+	padding-top: 180px;
+}
+
+.sabes{
+	padding-top: 180px;
+}
+
+.flecha {
+	position:absolute; 
+	animation-name: flecha;
+	margin-top: 30px;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-play-state: running;
+}
+
+@keyframes flecha {
+	to { 
+	padding-top: 50px;}
+}
 /*------------------INICIAR SESION REGISTRARSE-------------------*/
 
 .ingresar{
@@ -393,6 +414,7 @@ article {
 .olvidaste-contraseña, label{
 	color:white;
 }
+
 label{
 	font-size:1.5em;
 	margin-bottom:10px;
@@ -408,6 +430,7 @@ label{
 	margin-top:20px;
 	cursor: pointer;
 }
+
 hr{
 	margin-top:10px;
 	padding-bottom: 0px;
@@ -422,7 +445,8 @@ label{
 
 input type, label{
 	color:white;
-} 
+}
+
 .Boton-registrarse{
 	width:40%;
 	height:60px;
@@ -470,32 +494,28 @@ input type, label{
 
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
 
-
-
 .carrusel {
 	display:flex;
 	gap:10px;
 	justify-content: flex-start;
-	
 }
+
 .carrusel ul {
 	list-style: none;
 	margin: 0px;
 	padding:0px;
 	max-width: 900px;
 }
+
 .carrusel-fotos {
 	display:flex;
 	gap:10px;
-	overflow: auto;
-	
+	overflow:auto;
 }
-
 
 .carrusel-fotos img {
 	width: 300px;
 	height:200px;
-	
 }
 
 .aside {
@@ -526,6 +546,11 @@ input type, label{
 	padding-left:50px;
 	padding-right: 70px;
 }
+
+.titulos{
+	padding: 60px 0px 50px 0px;
+}
+
 .datos{
 	width:70%;
 	height: fit-content;
@@ -536,6 +561,7 @@ input type, label{
 	display: flex;
 	flex-direction: column;
 }
+
 .horario{
 	width:70%;
 	height: fit-content;
@@ -546,6 +572,7 @@ input type, label{
 	display: flex;
 	flex-direction: column;
 }
+
 .comentarios{
 	width:70%;
 	height: fit-content;
@@ -555,7 +582,11 @@ input type, label{
 	margin:15px;
 	display: flex;
 	flex-direction: column;
-	
+}
+
+.contanos{
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .botonverforo{
@@ -573,40 +604,38 @@ input type, label{
 	padding-bottom:10px;
 	margin-left:25px;
 	margin-right:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .mapa{
 	padding-bottom: 150px;
 }
 
-
 /*----------------- MAIN PIZZA-------------------*/
+
 .información ul{
 	color: #508B59;
 }
-
 
 .imgportada {
 	width: 100%;
 	height: auto;
 }
 
-
 .comentarios label {
-	
-font-family:'open-sans', "Alegreya Sans";
-color: #508B59;
-font-size: 1em;
+	font-family:'open-sans', "Alegreya Sans";
+	color: #508B59;
+	font-size: 1em;
 }
 
 #Mensaje {
-
-border-radius: 30px;
-border:none;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 10px;
-height: 45px;
+	border-radius: 30px;
+	border:none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	height: 45px;
 }
 
 .pasos{
@@ -629,7 +658,6 @@ height: 45px;
 	background: #F9EEE6;
 	border-radius:18px;
 	padding: 20px 30px 20px 30px;
-	
 }
 
 .ingredientes{
@@ -641,7 +669,6 @@ height: 45px;
 	margin:15px;
 	display: flex;
 	flex-direction: column;
-
 }
 
 .aside {
@@ -655,8 +682,9 @@ padding:10px;
 background: #EC881D;
 }
 
-
-
+.medida{
+	padding-top: 20px;
+}
 
 /*------------------ MAIN FORO-------------------*/
 
@@ -683,10 +711,8 @@ background: #EC881D;
 	border-color: none;
 }
 
-
 #encabezadoforo {
-	
-gap: 50px;
+	gap: 50px;
 	padding-left: 50px;
 }
 
@@ -714,7 +740,6 @@ h9 {
 	display: flex;
 	justify-content: center;
 }
-
 
 .preguntas {
 	margin: 20px 40px 20px 40px;
@@ -749,7 +774,7 @@ h10 {
 	padding-bottom: 60px;
 }
 
-.botonesforo  {
+.botonesforo {
 	height: 30px;
 	width: 210px;
 	background-color:#508B59;
@@ -768,63 +793,57 @@ h10 {
 }
 
 .formularioforo {
-width: 87%;
-height: 50%;
-font-family:"original-surfer";
-align-items: center;
-margin: 20px 40px 20px 40px;
-padding: 20px;
-border-style: solid;
-border-width: 3px;
-border-radius: 30px;
-border-color: #EC881D;
-padding-left: 50px;
-padding-right: 50px;
-gap: 60px;
-
-
-	
+	width: 87%;
+	height: 50%;
+	font-family:"original-surfer";
+	align-items: center;
+	margin: 20px 40px 20px 40px;
+	padding: 20px;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 30px;
+	border-color: #EC881D;
+	padding-left: 50px;
+	padding-right: 50px;
+	gap: 60px;
 }
 
 .titulopreg {
-font-family: 'Original Surfer', cursive;
-color: #EC881D;
-font-size: 1.7em;
-padding-top: 20px;
-padding-bottom: 20px;
-
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 1.7em;
+	padding-top: 5px;
+	padding-bottom: 25px;
 }
-
 
 #Mensajeforo {
 	width: 500px;
 	padding-bottom: 20px;
 }
+
 .botonpregunta {
 	font-family: "open-sans";
 	display:flex;
-	justify-content: center;
-	
-	
+	justify-content:center;
+	border-color:#508B59;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-input  {
+
+input{
 	font-family: "open-sans";
 	color:white;
 	font-size:1em;
-	
 	background-color:#508B59;
 	border-radius:30px;
-	
-	
 }
+
 .botonespregforo {
-	
 	align-content: center;
 	width:200px;
-	
 }
-/*------------------FOOTER-------------------*/
 
+/*------------------FOOTER-------------------*/
 
 footer {
 	background-color: #EC881D;
@@ -833,10 +852,9 @@ footer {
 	font-size:1em;
 	color: white;
 	width: 100%;
-	padding:10px 0px 10px 0px;
+	padding:30px 0px 35px 0px;
 	display: flex;
 	justify-content: space-around;
-
 }
 
 a {
@@ -844,7 +862,7 @@ a {
 }
 
 .imgfooter{
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
 .footer{
