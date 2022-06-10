@@ -103,7 +103,7 @@ nav li .opciones {
 }
 
 .submenu {
-	width: 100px;
+	width: 60px;
 }
 
 .botoneraheader {
@@ -359,7 +359,7 @@ article {
 	margin-bottom:5px;
 	font-family:"Inika", serif;
 	border:none;
-	font-size:1.2em;
+	font-size:1em;
 }
 
 .Boton-iniciarsesion{
@@ -555,7 +555,7 @@ input type, label{
 }
 
 .botonverforo{
-	width:50%;
+	width:35%;
 	height: 15px;
 	background: #EC881D;
 	border:none;
@@ -564,9 +564,11 @@ input type, label{
 	font-family: "Original Surfer",cursive;
 	cursor: pointer;
 	padding-left: 15px;
-	padding-right: 35px;
+	padding-right: 15px;
 	padding-top:5px;
 	padding-bottom:10px;
+	margin-left:25px;
+	margin-right:10px;
 }
 
 .mapa{
