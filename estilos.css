@@ -457,6 +457,34 @@ input type, label{
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
 
 
+
+.carrusel {
+	display:flex;
+	gap:10px;
+	justify-content: center;
+	
+}
+.carrusel ul {
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	max-width: 1000px;
+}
+.carrusel-fotos {
+	display:flex;
+	gap:10px;
+	overflow: auto;
+	
+}
+
+
+.carrusel-fotos img {
+	width: 300px;
+	height:200px;
+	
+}
+
+
 .imgprincipalsintaxis {
 	width: 100% !important;
 	height: auto;
@@ -702,7 +730,7 @@ h10 {
 	padding-bottom: 60px;
 }
 
-.botonesforo {
+.botonesforo  {
 	height: 30px;
 	width: 210px;
 	background-color:#508B59;
@@ -720,9 +748,62 @@ h10 {
 	padding-top: 50px;
 }
 
+.formularioforo {
+width: 87%;
+height: 50%;
+font-family:"original-surfer";
+align-items: center;
+margin: 20px 40px 20px 40px;
+padding: 20px;
+border-style: solid;
+border-width: 3px;
+border-radius: 30px;
+border-color: #EC881D;
+padding-left: 50px;
+padding-right: 50px;
+gap: 60px;
 
 
+	
+}
 
+.titulopreg {
+font-family: 'Original Surfer', cursive;
+color: #EC881D;
+font-size: 1.7em;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+
+#Mensajeforo {
+	width: 500px;
+	padding-bottom: 20px;
+}
+.botonpregunta {
+	font-family: "open-sans";
+	display:flex;
+	justify-content: center;
+	
+	
+}
+input  {
+	font-family: "open-sans";
+	color:white;
+	font-size:1em;
+	
+	background-color:#508B59;
+	border-radius:30px;
+	
+	
+}
+.botonespregforo {
+	
+	align-content: center;
+	width:200px;
+	
+}
 /*------------------FOOTER-------------------*/
 
 
