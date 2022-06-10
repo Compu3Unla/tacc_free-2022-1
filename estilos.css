@@ -181,13 +181,16 @@ h7 {
 	color: #508B59;
 	font-size: 1em;
 	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h8 {
 	font-family:'open-sans', "Alegreya Sans";
 	color: #508B59;
 	font-size: 1em;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 
 }
 
@@ -203,7 +206,7 @@ h11 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
 	font-size: 1.7em;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -236,6 +239,17 @@ h12 {
 
 .letrasverdes {
 	color: #508B59;
+}
+
+.datosrecetas {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.gap {
+	gap: 150px;
 }
 
 /*------------------MAIN INICIO-------------------*/
@@ -461,14 +475,14 @@ input type, label{
 .carrusel {
 	display:flex;
 	gap:10px;
-	justify-content: center;
+	justify-content: flex-start;
 	
 }
 .carrusel ul {
 	list-style: none;
 	margin: 0px;
 	padding:0px;
-	max-width: 1000px;
+	max-width: 900px;
 }
 .carrusel-fotos {
 	display:flex;
@@ -482,16 +496,6 @@ input type, label{
 	width: 300px;
 	height:200px;
 	
-}
-
-
-.imgprincipalsintaxis {
-	width: 100% !important;
-	height: auto;
-}
-
-.imgprincipal {
-	width: 100%;
 }
 
 .aside {
@@ -511,8 +515,8 @@ input type, label{
 }
 
 .restaurante {
-	width: 85%;
-	height:290px;
+	width: 80%;
+	height: fit-content;
 	background: #F9EEE6;
 	border-radius:18px;
 	padding: 25px;
@@ -524,7 +528,7 @@ input type, label{
 }
 .datos{
 	width:70%;
-	height: 80px;
+	height: fit-content;
 	border-radius:15px;
 	background: #F9EEE6;
 	padding:20px;
@@ -534,7 +538,7 @@ input type, label{
 }
 .horario{
 	width:70%;
-	height:160px;
+	height: fit-content;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
@@ -544,7 +548,7 @@ input type, label{
 }
 .comentarios{
 	width:70%;
-	height:340px;
+	height: fit-content;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
@@ -582,17 +586,11 @@ input type, label{
 }
 
 
-.imgprincipalpizza {
-	width: 100% !important;
+.imgportada {
+	width: 100%;
 	height: auto;
 }
 
-
-.comentarios{
-	width:70%;
-	height:270px;
-	padding-bottom: 100px;
-	}
 
 .comentarios label {
 	
@@ -610,14 +608,33 @@ padding-right: 10px;
 margin-top: 10px;
 height: 45px;
 }
+
 .pasos{
-	padding-top: 0px;
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin-top: 50px;
+}
+
+.numerodepaso {
+	font-size: 5em;
+	width: 10%;
+}
+
+.explicaciondepaso {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: fit-content;
+	background: #F9EEE6;
+	border-radius:18px;
+	padding: 20px 30px 20px 30px;
+	
 }
 
 .ingredientes{
 	width:70%;
-	height:500px;
-
+	height: fit-content;
 	border-radius:18px;
 	background: #F9EEE6;
 	padding:20px;
