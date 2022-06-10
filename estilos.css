@@ -256,6 +256,7 @@ h12 {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% auto;
+	
 	height: inherit;
 }
 
@@ -407,8 +408,9 @@ article {
 	margin-bottom:16px;
 	border:none;
 	font-family:"Original Surfer",cursive;
-	margin-top:10px;
+	margin-top:30px;
 	cursor:pointer;
+	
 }
 	
 .olvidaste-contraseña, label{
@@ -426,7 +428,6 @@ label{
 	background: #EC881D;
 	border: none;
 	font-size:0.9em;
-	padding-bottom: 50px;
 	margin-top:20px;
 	cursor: pointer;
 }
