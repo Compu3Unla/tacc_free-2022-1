@@ -185,7 +185,6 @@ h8 {
 	font-family:'open-sans', "Alegreya Sans";
 	color: #508B59;
 	font-size: 1em;
-	padding-bottom: 10px;
 	padding-top: 10px;
 }
 
@@ -193,7 +192,6 @@ p {
 	font-family: 'Inika', serif;
 	color: #508B59;
 	font-size: 1.2em;
-	padding-bottom: 10px;
 	padding-top: 10px;
 }
 
@@ -826,7 +824,7 @@ h10 {
 	font-family: "open-sans";
 	display:flex;
 	justify-content:center;
-	border-color:#508B59;
+	border:none;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
