@@ -323,11 +323,11 @@ article {
 }
 
 .gracias{
-	padding-top: 110px;
+	padding-top: 90px;
 }
 
 .preguntainicio{
-	padding-top: 180px;
+	padding-top: 200px;
 }
 
 .sabes{
@@ -381,10 +381,10 @@ article {
 
 .Controles{
 	background:#EC881D;
-	padding:10px 5px 0px 0px;
+	padding:10px 20px 10px 10px;
 	margin-bottom:16px;
-	border:none;
-	font-size:1em;
+	margin-top: 10px;
+	font-size:0.8em;
 	display: flex;
 	flex-direction: row;
 }
@@ -728,12 +728,9 @@ h9 {
 }
 
 .preguntasforo {
-	width: 300px;
-	padding-left: 100px;
-	
+	width: 500px;
+	padding-bottom: 30px;
 }
-
-
 
 .introforo {
 	display: flex;
@@ -752,15 +749,15 @@ h9 {
 }
 
 .preguntas {
+	height: 190px;
 	align-items: center;
 	justify-content: center;
-	margin: 20px 40px 20px 40px;
-	padding: 20px;
+	margin: 20px 70px 40px 70px;
+	padding: 20px 20px 20px 80px;
 	border-style: solid;
 	border-width: 3px;
 	border-radius: 30px;
 	border-color: #EC881D;
-	
 	padding-right: 100px;
 	gap: 60px;
 }
@@ -795,29 +792,24 @@ h10 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 50px;
 }
 
 .sitiosrecomendados {
-	gap: 130px;
-	padding-left: 100px;
+	gap: 100px;
+	padding-left: 130px;
 	padding-right: 50px;
 	padding-top: 50px;
 }
 
 .formularioforo {
-	width: 87%;
-	height: 50%;
+	height: 190px;
 	font-family:"original-surfer";
-	align-items: center;
-	margin: 20px 40px 20px 40px;
-	padding: 20px;
+	margin: 20px 70px 70px 70px;
+	padding: 40px 20px 20px 260px;
 	border-style: solid;
 	border-width: 3px;
 	border-radius: 30px;
 	border-color: #EC881D;
-	padding-left: 50px;
-	padding-right: 50px;
 	gap: 60px;
 }
 
