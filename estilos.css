@@ -728,7 +728,7 @@ h9 {
 }
 
 .preguntasforo {
-	width: 500px;
+	width: 80%;
 	padding-bottom: 30px;
 }
 
@@ -792,13 +792,49 @@ h10 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
+}
+
+.botonesforocrema{
+	background-color: #F9EEE6;
+	height: 30px;
+	width: 210px;
+	border-radius:30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #508B59;
 }
 
 .sitiosrecomendados {
-	gap: 100px;
-	padding-left: 130px;
-	padding-right: 50px;
+	width: 100%;
+	justify-content: center;
+	gap: 20px;
 	padding-top: 50px;
+}
+
+.recomendado{
+	height: 500px;;
+	width: 20%;
+	border-radius: 25px;
+	background-color:#EC881D;
+	margin-right: 2%;
+	text-align: center;
+	padding:20px 0px 30px 60px;
+	justify-content:space-between;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+.recomendado:hover{
+	transition: 0.5s;
+	background-color:#508B59 ;
+}
+
+.sitio{
+	width: 80%;
+	padding-bottom: 30px;
+	color:#F9EEE6;
 }
 
 .formularioforo {
@@ -845,8 +881,16 @@ input{
 
 .botonespregforo {
 	align-content: center;
-	width:200px;
+	height: 30px;
+	width: 210px;
+	background-color:#508B59;
+	border-radius:30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
 }
+
 
 /*------------------FOOTER-------------------*/
 
