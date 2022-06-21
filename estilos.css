@@ -498,14 +498,17 @@ input type, label{
 .carrusel {
 	display:flex;
 	gap:10px;
+	
 	justify-content: flex-start;
+	
+	
 }
 
 .carrusel ul {
 	list-style:none;
 	margin: 0px;
 	padding:0px;
-	max-width: 900px;
+	max-width: 800px;
 }
 
 .carrusel-fotos {
@@ -515,10 +518,51 @@ input type, label{
 	color: #508B59;
 }
 
+.carrusel-menu {
+	display:none;
+}
 .carrusel-fotos img {
 	width: 300px;
 	height:200px;
 }
+
+
+@media screen and (min-width: 600px) {
+	.carrusel-fotos {
+	overflow: hidden;
+	}
+	
+	.carrusel-fotos img {
+		width: 500px;
+		height: 400px;
+	}
+	
+	.carrusel-menu {
+		display:block;
+	}
+	
+	.carrusel-menu img { 
+	
+	width: 50px; 
+	height:40px;
+	
+	}
+
+	.carrusel-menu img:hover {
+		border:none;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
 
 .aside {
 	width: 25%;
