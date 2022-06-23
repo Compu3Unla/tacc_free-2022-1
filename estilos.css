@@ -145,8 +145,9 @@ h2 {
 	font-family: 'Original Surfer', cursive;
 	color: #EC881D;
 	font-size: 1.7em;
-	padding-top: 100px;
+	margin-top: 100px;
 	padding-bottom: 20px;
+	z-index: 1;
 }
 
 h3 {
@@ -259,7 +260,7 @@ h12 {
 
 .maincolumnas{
 	max-width: 100%;
-	background-image:url("img/formafondo72.png");
+	background-image: url("img/formafondonueva.png");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% auto;
@@ -304,6 +305,10 @@ h12 {
 	height: 45px;
 }
 
+.boton:hover {
+	background-color: #508B59;
+}
+
 .textoquepodesencontrar {
 	width: 70%;
 	margin-left: 95px;
@@ -334,7 +339,7 @@ article {
 }
 
 .preguntainicio{
-	padding-top: 200px;
+	padding-top: 90px;
 }
 
 .sabes{
@@ -344,7 +349,7 @@ article {
 .flecha {
 	position:absolute; 
 	animation-name: flecha;
-	margin-top: 30px;
+	margin-top: 100px;
 	animation-duration: 2s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
@@ -471,14 +476,32 @@ input type, label{
 	border-color: #FFFFFF;
 }
 
+.selecciondeimagenesnaranja {
+	border:10px solid;
+	border-radius:100%;
+	border-color: #EC881D;
+}
+
 .selecciondeimagenes:hover {
 	border:10px solid;
 	border-radius:100%;
 	border-color: #508B59;
 }
 
+.selecciondeimagenesnaranja:hover {
+	border:10px solid;
+	border-radius:100%;
+	border-color: #508B59;
+}
+
+.contenedorcards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 35px;
+}
+
 .sectioncards {
-	padding: 40px 50px 30px 50px;
 	justify-content: space-around;
 }
 
@@ -487,12 +510,14 @@ input type, label{
 .container {
 	margin:auto;
 	width: 800px;
-	padding:30px;
+	padding: 30px 30px 30px 0px;
+	height: 500px;
 }
 
 .menu {
 	text-align: center;
-	margin:20px;
+	margin: 240px 20px 20px 20px;
+	z-index: 10;
 }
 
 .menu a {
@@ -503,6 +528,7 @@ input type, label{
 	position: relative;
 	width:800px;
 	height: 300px;
+	
 }
 
 .slider li {
@@ -520,8 +546,9 @@ input type, label{
 .slider li img {
 	
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	object-fit: cover;
+	
 	
 }
 
@@ -545,7 +572,7 @@ input type, label{
 	font-family: "open-sans";
 	text-decoration: none;
 	background-color:#508B59;
-	padding:10px;
+	padding: 10px;
 	width: 20px;
 	height: 20px;
 	font-size:20px;
@@ -973,7 +1000,7 @@ a {
 @media screen and (max-width: 600px) {
 	
 
-
+/*
 /*------------------MAIN INICIO-------------------*/
 
 
@@ -995,6 +1022,7 @@ a {
 
 .boton {
 	width: 70%;
+	background-color: #508B59;
 }
 
 .textoquepodesencontrar {
@@ -1032,28 +1060,16 @@ a {
 h3 {
 		padding-bottom: 80px;
 	}
-	
-	
-/*------------------MAIN INICIAR SESIÓN REGISTRARSE-------------------*/
-	
-	.ingresar {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0px;
-		margin: 10px;
-	}
-	
-	.logo {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
 
+h2 {
+		width: 70%;
+
+	}
 	
 	
 /*------------------FORO-------------------*/
+	
+	
 	
 #encabezadoforo {
 	gap: 30px;
@@ -1174,6 +1190,7 @@ h10 {
 	gap: 40px;
 }
 
+	
 /*------------------GRACIAS POR UNIRTE-------------------*/	
 	
 .columnader {
@@ -1196,11 +1213,22 @@ h10 {
 }	
 
 	
-/*------------------FOOTER-------------------*/
+/*------------------RESTAURANTES-------------------*/
 	
+.contenedorcards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 0px;
+}	
+
+	.sectioncards {
+		padding: 30px;
+	}
 	
-	
-	
+	h3 {
+		padding-bottom: 20px;
+	}	
 	
 	
 	
