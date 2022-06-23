@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*------------------GENERAL-------------------*/
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -354,47 +356,44 @@ article {
 	to { 
 	padding-top: 50px;}
 }
+
 /*------------------INICIAR SESION REGISTRARSE-------------------*/
 
-.ingresar{
+.ingresar {
 	display:flex;
 	flex-direction: row;
 	font-family:"Inika", serif;
 	background: #EC881D;
+	align-items: center;
+	padding-left: 120px;
+	padding-right: 120px;
+	gap: 100px;
+	height: 100vh;
 }
 
-.logo{
-	width:40%;
-	margin:130px;
-}
 .Formulario-inicio{
-	width: 60%;
-	height: auto; 
-	padding-bottom:30px;
-	padding-right:120px;
-	margin-top:170px;
+	width: 100%;
 	font-family:"Inika", serif;
 }
 
 .Formulario-registro{
-	width:60%;
-	padding-bottom:30px;
-	padding-right:120px;
-	margin-top:80px;
+	width: 100%;
 	font-family:"Inika", serif;
 }
 
 .Controles{
 	background:#EC881D;
 	padding:10px 20px 10px 10px;
-	margin-bottom:16px;
+	margin-bottom:10px;
 	margin-top: 10px;
 	font-size:0.8em;
 	display: flex;
 	flex-direction: row;
+	width: 70%;
 }
+
 .Controlesregistro{
-	width:60%;
+	width: 80%;
 	background:#EC881D;
 	padding:30px;
 	margin-bottom:5px;
@@ -403,19 +402,17 @@ article {
 	font-size:1em;
 }
 
-.Boton-iniciarsesion{
-	width:40%;
-	height:60px;
-	border-radius:30px;
-	background:white;
-	color:#508B59;
-	font-size: 1.6em;
-	margin-bottom:16px;
-	border:none;
-	font-family:"Original Surfer",cursive;
-	margin-top:30px;
-	cursor:pointer;
-	
+.boton-iniciarsesion-registrarse{
+	width: 35%;
+    height: 50px;
+    border-radius: 30px;
+    background: white;
+    color: #508B59;
+    font-size: 1.4em;
+    border: none;
+    font-family: "Original Surfer",cursive;
+    margin-top: 30px;
+    cursor: pointer;	
 }
 	
 .olvidaste-contraseña, label{
@@ -437,7 +434,7 @@ label{
 	cursor: pointer;
 }
 
-hr{
+hr {
 	margin-top:10px;
 	padding-bottom: 0px;
 }
@@ -451,19 +448,6 @@ label{
 
 input type, label{
 	color:white;
-}
-
-.Boton-registrarse{
-	width:40%;
-	height:60px;
-	border-radius:30px;
-	background:white;
-	color:#508B59;
-	margin-bottom:16px;
-	border:none;
-	font-size:1.5em;
-	font-family:"Original Surfer",cursive;
-	margin-top: 70px;
 }
 
 /*------------------MAIN CARDS-------------------*/
@@ -510,6 +494,7 @@ input type, label{
 	text-align: center;
 	margin:20px;
 }
+
 .menu a {
 	color:black;
 }
@@ -539,6 +524,7 @@ input type, label{
 	object-fit: cover;
 	
 }
+
 .slider li:first-child {
 	opacity: 1;
 	
@@ -552,6 +538,7 @@ input type, label{
 	display:inline-block;
 	text-align: center;
 }
+
 .menu li a {
 	display:inline-block;
 	color:white;
@@ -564,10 +551,6 @@ input type, label{
 	font-size:20px;
 	border-radius: 30px;
 }
-
-
-
-
 
 .aside {
 	width: 25%;
@@ -593,10 +576,10 @@ input type, label{
 	padding: 25px;
 }
 
-
 .restaurante p {
 	width: 500px;
 }
+
 .textoquepodesencontrarbienvenida{
 	padding-left:50px;
 	padding-right: 70px;
@@ -869,16 +852,16 @@ h10 {
 .sitiosrecomendados {
 	width: 100%;
 	justify-content: center;
-	gap: 20px;
+	gap: 50px;
 	padding-top: 50px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 }
 
 .recomendado {
     height: 500px;
-    width: 50%;
+    width: 20%;
     border-radius: 25px;
     background-color: #EC881D;
     text-align: center;
@@ -1003,10 +986,6 @@ a {
 	position: fixed;
 }
 	
-	
-
-	
-
 .registro {
 	flex-direction: column;
 	display: flex;
@@ -1023,14 +1002,14 @@ a {
 	margin-left: 0px;
 }
 
-	.columnader {
+.columnader {
     display: flex;
     align-items: center;
 	
 	}
 	
 .textosabesloquees {
-	width: 60%;
+	width: 75%;
 	margin-left: 0px;
 }
 
@@ -1039,41 +1018,44 @@ a {
 	align-items: center;
 }
 	
-	.letrasblancas {
+.letrasblancas {
 		color: #EC881D;
 	}
 
-	.sabes {
-		padding-top: 120px;
+.sabes {
+	padding-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 	}
 	
-	h3 {
+h3 {
 		padding-bottom: 80px;
 	}	
 	
 	
 /*------------------MAIN INICIAR SESIÓN REGISTRARSE-------------------*/
 	
-	.ingresar{
-		flex-direction: row;
-		flex-wrap:wrap;
+	.ingresar {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
 		align-items: center;
-	}	
-	.formulario-inicio{
-		width:100%;
+		padding: 0px;
+		margin: 10px;
 	}
-	.logo{
-		margin-left:90px;
-	}	
+	
+	.logo {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 	
 	
+/*------------------FORO-------------------*/
 	
-	/*------------------FORO-------------------*/
-	
-	#encabezadoforo {
+#encabezadoforo {
     gap: 30px;
     padding-left: 0px;
     display: flex;
@@ -1081,7 +1063,7 @@ a {
     align-items: center;
 }
 	
-	.globo {
+.globo {
 		left: 240px;
 	}
   
@@ -1116,11 +1098,11 @@ a {
 	
 }
 
-	p {
+p {
 		font-size: 1em;
 	}
 	
-	.sectionpreguntasforo {
+.sectionpreguntasforo {
 	display: flex;
 	flex-direction: column;
 	padding: 5px 0px 5px 0px;
@@ -1172,24 +1154,18 @@ h10 {
 	justify-content: center;
 	color: #508B59;
 }
-
+	
 .sitiosrecomendados {
-	width: 100%;
-	justify-content: center;
 	gap: 20px;
-	padding-top: 50px;
+	flex-direction: column;
 }
-
-.recomendado{
-	 height: fit-content;
-    width: 50%;
-    padding: 20px;
-    gap: 20px;
-    margin-left: 0px;
-    margin-bottom: 40px;
+	
+.recomendado {
+    height: fit-content;
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+	gap: 20px;
 }
-
-
 
 .formularioforo {
 	height: 180px;
@@ -1198,6 +1174,38 @@ h10 {
 	gap: 40px;
 }
 
+/*------------------GRACIAS POR UNIRTE-------------------*/	
+	
+.columnader {
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+}	
+	
+.preguntainicio {
+    padding-top: 80px;
+	width: 70%;
+}	
+
+.flecha {
+		visibility: hidden;
+	}
+	
+.gracias {
+    padding-top: 50px;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
