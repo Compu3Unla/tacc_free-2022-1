@@ -404,15 +404,15 @@ article {
 
 .boton-iniciarsesion-registrarse{
 	width: 35%;
-    height: 50px;
-    border-radius: 30px;
-    background: white;
-    color: #508B59;
-    font-size: 1.4em;
-    border: none;
-    font-family: "Original Surfer",cursive;
-    margin-top: 30px;
-    cursor: pointer;	
+	height: 50px;
+	border-radius: 30px;
+	background: white;
+	color: #508B59;
+	font-size: 1.4em;
+	border: none;
+	font-family: "Original Surfer",cursive;
+	margin-top: 30px;
+	cursor: pointer;	
 }
 	
 .olvidaste-contraseña, label{
@@ -860,15 +860,15 @@ h10 {
 }
 
 .recomendado {
-    height: 500px;
-    width: 20%;
-    border-radius: 25px;
-    background-color: #EC881D;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    justify-content: space-between;
-    margin-: 0px;
-    align-items: center;
+	height: 500px;
+	width: 20%;
+	border-radius: 25px;
+	background-color: #EC881D;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	justify-content: space-between;
+	margin: 0px;
+	align-items: center;
 }
 
 .recomendado:hover{
@@ -1003,8 +1003,8 @@ a {
 }
 
 .columnader {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 	
 	}
 	
@@ -1024,14 +1024,14 @@ a {
 
 .sabes {
 	padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	}
 	
 h3 {
 		padding-bottom: 80px;
-	}	
+	}
 	
 	
 /*------------------MAIN INICIAR SESIÓN REGISTRARSE-------------------*/
@@ -1047,8 +1047,8 @@ h3 {
 	
 	.logo {
 	width: 100%;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 	
@@ -1056,17 +1056,17 @@ h3 {
 /*------------------FORO-------------------*/
 	
 #encabezadoforo {
-    gap: 30px;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	gap: 30px;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 	
 .globo {
-		left: 240px;
-	}
-  
+	left: 240px;
+}
+
 .preguntasforo {
 	width: 80%;
 	padding-bottom: 30px;
@@ -1099,8 +1099,8 @@ h3 {
 }
 
 p {
-		font-size: 1em;
-	}
+	font-size: 1em;
+}
 	
 .sectionpreguntasforo {
 	display: flex;
@@ -1129,8 +1129,8 @@ h10 {
 	margin-top: 30px;
 	padding-bottom: 60px;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .botonesforo {
@@ -1161,9 +1161,9 @@ h10 {
 }
 	
 .recomendado {
-    height: fit-content;
-    width: 60%;
-    padding: 20px 20px 20px 20px;
+	height: fit-content;
+	width: 60%;
+	padding: 20px 20px 20px 20px;
 	gap: 20px;
 }
 
@@ -1180,7 +1180,7 @@ h10 {
 	padding-top: 80px;
 	display: flex;
 	flex-direction: column;
-}	
+}
 	
 .preguntainicio {
     padding-top: 80px;
@@ -1188,12 +1188,16 @@ h10 {
 }	
 
 .flecha {
-		visibility: hidden;
-	}
+	visibility: hidden;
+}
 	
 .gracias {
-    padding-top: 50px;
+	padding-top: 50px;
 }	
+
+	
+/*------------------FOOTER-------------------*/
+	
 	
 	
 	
