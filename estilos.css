@@ -139,11 +139,11 @@ nav li .opciones {
 }
 
 .headermobile {
-		position: fixed;
-		top: 50px;
-		right: 50px;
+	position: fixed;
+	top: 50px;
+	right: 50px;
 
-	}
+}
 
 /*------------------MAIN GENERAL-------------------*/
 
@@ -348,7 +348,7 @@ article {
 }
 
 .preguntainicio{
-	padding-top: 90px;
+	padding-top: 30px;
 }
 
 .sabes{
@@ -394,7 +394,6 @@ article {
 	width: 100%;
 	font-family:"Inika", serif;
 }
-
 
 
 .Controles{
@@ -468,7 +467,7 @@ input type, label{
 
 /*------------------MAIN RECETAS-------------------*/
 .circulos {
-display: flex;
+	display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 70px;
@@ -552,8 +551,6 @@ display: flex;
 	width:inherit;
 	height: inherit;
 	transition: opacity .5s;
-	
-	
 }
 
 .slider li img {
@@ -561,13 +558,10 @@ display: flex;
 	width: 100%;
 	height: 500px;
 	border: white;
-	
-	
 }
 
 .slider li:first-child {
-	opacity: 1;
-	
+	opacity: 1;	
 }
 
 .slider li:target {
@@ -803,10 +797,6 @@ background: #EC881D;
 	to { 
 	padding-top: 50px;}
 }
-
-
-
-
 
 
 #pregunta {
@@ -1287,7 +1277,6 @@ h10 {
 }
 	
 .preguntainicio {
-    padding-top: 80px;
 	width: 70%;
 }	
 
