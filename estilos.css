@@ -334,10 +334,8 @@ h12 {
 .textosabesloquees {
 	width: 80%;
 	margin-left: 55px;
-	padding-bottom: 150px;
+	padding-bottom: 90px;
 }
-
-
 article {
 	display:flex;
 	flex-direction: column;
