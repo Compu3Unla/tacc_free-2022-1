@@ -58,6 +58,144 @@ a {
 .solodesktop {
 	visibility: visible;
 }
+
+h1 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 2.5em;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 1.7em;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	z-index: 1;
+}
+
+h3 {
+	font-family: 'Original Surfer', cursive;
+	color: #508B59;
+	font-size: 1.8em;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	flex-direction: row;
+}
+
+h4 {
+	font-family:'open-sans', "Alegreya Sans";
+	color: white;
+	font-size: 1em;
+	padding-bottom: 10px;
+}
+
+h5 {
+	font-family:'open-sans', "Alegreya Sans";
+	font-size: 0.8em;
+	color: white;
+}
+
+h6 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+h7 {
+	font-family:'open-sans', "Alegreya Sans";
+	color: #508B59;
+	font-size: 1em;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+h8 {
+	font-family:'open-sans', "Alegreya Sans";
+	color: #508B59;
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+h9 {
+	font-family: 'Inika', serif;
+	color: #EC881D;
+	font-size: 1.2em;
+	width: 60%;
+	text-align: center;
+	padding-top: 40px;
+}
+
+h10 {
+	font-family: 'Inika', serif;
+	color: #508B59;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Inika', serif;
+	color: #508B59;
+	font-size: 1.2em;
+	padding-top: 10px;
+	
+}
+
+h11 {
+	font-family: 'Original Surfer', cursive;
+	color: #EC881D;
+	font-size: 1.7em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h12 {
+	font-family: 'Original Surfer', cursive;
+	color: #508B59;
+	font-size: 2.5em;
+	padding-bottom: 20px;
+}
+
+.columnaizq {
+	width: 100%;
+	align-content: center;
+}
+
+.columnader {
+	width: 100%;
+	text-align: center;
+	padding-top: 150px;
+	justify-content: center;
+}
+
+.letrasblancas {
+	color: white;
+}
+
+.letrasnaranjas {
+	color: #EC881D;
+}
+
+.letrasverdes {
+	color: #508B59;
+}
+.gap {
+	gap: 150px;
+}
+
+.bold{
+	font-size: 1em;
+	font-weight: 700;
+}
+
 /*------------------HEADER-------------------*/
 
 header {
@@ -145,132 +283,9 @@ nav li .opciones {
 
 }
 
-/*------------------MAIN GENERAL-------------------*/
 
-h1 {
-	font-family: 'Original Surfer', cursive;
-	color: #EC881D;
-	font-size: 2.5em;
-	padding-top: 40px;
-	padding-bottom: 20px;
-}
 
-h2 {
-	font-family: 'Original Surfer', cursive;
-	color: #EC881D;
-	font-size: 1.7em;
-	margin-top: 100px;
-	padding-bottom: 20px;
-	z-index: 1;
-}
-
-h3 {
-	font-family: 'Original Surfer', cursive;
-	color: #508B59;
-	font-size: 1.8em;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	text-align: center;
-	flex-direction: row;
-}
-
-h4 {
-	font-family:'open-sans', "Alegreya Sans";
-	color: white;
-	font-size: 1em;
-	padding-bottom: 10px;
-}
-
-h5 {
-	font-family:'open-sans', "Alegreya Sans";
-	font-size: 0.8em;
-	color: white;
-}
-
-h6 {
-	font-family: 'Original Surfer', cursive;
-	color: #EC881D;
-	font-size: 1.2em;
-	padding-bottom: 10px;
-	padding-top: 5px;
-}
-
-h7 {
-	font-family:'open-sans', "Alegreya Sans";
-	color: #508B59;
-	font-size: 1em;
-	font-weight: 700;
-	padding-top: 10px;
-	padding-bottom: 0px;
-}
-
-h8 {
-	font-family:'open-sans', "Alegreya Sans";
-	color: #508B59;
-	font-size: 1em;
-	padding-top: 10px;
-}
-
-p {
-	font-family: 'Inika', serif;
-	color: #508B59;
-	font-size: 1.2em;
-	padding-top: 10px;
-	
-}
-
-h11 {
-	font-family: 'Original Surfer', cursive;
-	color: #EC881D;
-	font-size: 1.7em;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-h12 {
-	font-family: 'Original Surfer', cursive;
-	color: #508B59;
-	font-size: 2.5em;
-	padding-bottom: 20px;
-}
-
-.columnaizq {
-	width: 100%;
-	align-content: center;
-}
-
-.columnader {
-	width: 100%;
-	text-align: center;
-	padding-top: 150px;
-	justify-content: center;
-}
-
-.letrasblancas {
-	color: white;
-}
-
-.letrasnaranjas {
-	color: #EC881D;
-}
-
-.letrasverdes {
-	color: #508B59;
-}
-
-.datosrecetas {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 10px;
-}
-
-.gap {
-	gap: 150px;
-}
-
-/*------------------MAIN INICIO-------------------*/
-
+/*------------------INICIO-------------------*/
 
 .maincolumnas{
 	max-width: 100%;
@@ -280,8 +295,8 @@ h12 {
 	background-size: 100% auto;
 	height: inherit;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .botonera {
@@ -336,6 +351,7 @@ h12 {
 	margin-left: 55px;
 	padding-bottom: 90px;
 }
+
 article {
 	display:flex;
 	flex-direction: column;
@@ -362,6 +378,7 @@ article {
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
 	animation-play-state: running;
+	margin-left: -10px;
 }
 
 @keyframes flecha {
@@ -369,7 +386,17 @@ article {
 	padding-top: 50px;}
 }
 
-/*------------------INICIAR SESION REGISTRARSE-------------------*/
+.videocontaminacion {
+	padding-left: 180px;
+	padding-bottom: 100px;
+}
+
+.textoquepodesencontrarbienvenida{
+	padding-left: 110px;
+	padding-right: 70px;
+}
+
+/*------------------INICIAR SESION-REGISTRARSE-------------------*/
 
 .ingresar {
 	display:flex;
@@ -392,7 +419,6 @@ article {
 	width: 100%;
 	font-family:"Inika", serif;
 }
-
 
 .Controles{
 	background:#EC881D;
@@ -463,16 +489,7 @@ input type, label{
 	color:white;
 }
 
-/*------------------MAIN RECETAS-------------------*/
-.circulos {
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 70px;
-}
-
-
-/*------------------MAIN CARDS-------------------*/
+/*------------------CARDS-------------------*/
 
 .maincards {
 	padding-top: 60px;
@@ -510,21 +527,7 @@ input type, label{
 	justify-content: space-around;
 }
 
-/*------------------MAIN SINTAXIS PALERMO-------------------*/
-
-.sectionrestaurante {
-	display: flex;
-	flex-direction: column;
-	width:70%;
-	height: fit-content;
-	border-radius:18px;
-	background: #F9EEE6;
-	padding:20px;
-	margin:15px;
-	
-	
-}
-
+/*------------------GALERIA-------------------*/
 
 .container {
 	margin:auto;
@@ -593,10 +596,25 @@ input type, label{
 	border-radius: 30px;
 }
 
+/*------------------RECETAS-RESTAURANTES-------------------*/
 
-.bold{
-	font-size: 1em;
-	font-weight: 700;
+.datosrecetas {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.sectionrestaurante {
+	display: flex;
+	flex-direction: column;
+	width:70%;
+	height: fit-content;
+	border-radius:18px;
+	background: #F9EEE6;
+	padding:20px;
+	margin:15px;
+	
 }
 
 .restaurante {
@@ -609,11 +627,6 @@ input type, label{
 
 .restaurante p {
 	width: 500px;
-}
-
-.textoquepodesencontrarbienvenida{
-	padding-left:50px;
-	padding-right: 70px;
 }
 
 .titulos{
@@ -657,6 +670,7 @@ input type, label{
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
 #Mensaje {
 	border-radius: 30px;
 	border:none;
@@ -666,32 +680,28 @@ input type, label{
 	height: 45px;
 }
 
-
 .botonverforo{
-	width:35%;
-	height: 15px;
-	background: #EC881D;
-	border:none;
-	border-radius:20px;
-	color: white;
-	font-family: "Original Surfer",cursive;
-	cursor: pointer;
-	padding-left: 20px;
-	padding-right: 15px;
-	padding-top:5px;
-	padding-bottom:10px;
-	margin-left:40px;
-	margin-right:10px;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	width: 38%;
+    height: 15px;
+    background: #EC881D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: "Original Surfer",cursive;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .mapa{
 	padding-bottom: 150px;
 }
-
-/*----------------- MAIN PIZZA-------------------*/
-
 
 .información ul{
 	color: #508B59;
@@ -709,22 +719,12 @@ input type, label{
 	font-size: 1em;
 }
 
-#Mensaje {
-	border-radius: 30px;
-	border:none;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 20px;
-	height: 45px;
-}
-
 .pasos{
 	display: flex;
 	flex-direction: row;
 	width: 80%;
 	margin-top: 50px;
 }
-
 
 .numerodepaso {
 	font-size: 5em;
@@ -742,7 +742,6 @@ input type, label{
 	to { 
 	padding-top: 25px;}
 }
-
 
 .explicaciondepaso {
 	display: flex;
@@ -778,7 +777,12 @@ padding:10px;
 background: #EC881D;
 }
 
-/*------------------ MAIN FORO-------------------*/
+.videorecetas {
+	padding-left: 110px;
+	padding-top: 100px;
+}
+
+/*------------------FORO-------------------*/
 
 .globo {
 	position: absolute; 
@@ -796,7 +800,6 @@ background: #EC881D;
 	padding-top: 50px;}
 }
 
-
 #pregunta {
 	width: 660px;
 	height: 50px;
@@ -807,15 +810,6 @@ background: #EC881D;
 #encabezadoforo {
 	gap: 50px;
 	padding-left: 50px;
-}
-
-h9 {
-	font-family: 'Inika', serif;
-	color: #EC881D;
-	font-size: 1.2em;
-	width: 60%;
-	text-align: center;
-	padding-top: 40px;
 }
 
 .preguntasforo {
@@ -861,15 +855,6 @@ h9 {
 	padding: 5px 0px 5px 0px;
 }
 
-h10 {
-	font-family: 'Inika', serif;
-	color: #508B59;
-	font-size: 1.2em;
-	display: flex;
-	justify-content: center;
-	font-weight: 700;
-}
-
 .divbotonesforo {
 	display: flex;
 	flex-direction: column;
@@ -882,8 +867,8 @@ h10 {
 	margin-top: 30px;
 	padding-bottom: 60px;
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .botonesforo {
@@ -995,7 +980,6 @@ input{
 	margin-top: 20px;
 }
 
-
 /*------------------FOOTER-------------------*/
 
 footer {
@@ -1027,11 +1011,12 @@ a {
 
 
 
+
 /*------------------RESPONSIVE-------------------*/
 
 @media screen and (max-width: 600px) {
 
-	/*------------------GENERAL-------------------*/
+/*------------------GENERAL-------------------*/
 	
 .solodesktop {
 	visibility: hidden;
@@ -1040,67 +1025,6 @@ a {
 .solomobile {
 	visibility: visible;
 }	
-/*------------------MAIN INICIO-------------------*/
-
-
-.maincolumnas{
-	background-image: none;
-	display: flex;
-}
-
-.columnaizq {
-	position: fixed;
-}
-	
-.registro {
-	flex-direction: column;
-	display: flex;
-    align-items: center;
-	gap: 35px;
-}
-
-.boton {
-	width: 70%;
-	background-color: #508B59;
-}
-
-.textoquepodesencontrar {
-	width: 60%;
-	margin-left: 0px;
-}
-
-.columnader {
-	display: flex;
-	align-items: center;
-	
-	}
-	
-.textosabesloquees {
-	width: 75%;
-	margin-left: 0px;
-}
-
-	
-.letrasblancas {
-		color: #EC881D;
-	}
-
-.sabes {
-	padding-top: 0px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	}
-	
-h3 {
-		padding-bottom: 80px;
-	}
-
-h2 {
-		width: 70%;
-
-	}
-	
 
 /*------------------HEADER-------------------*/	
 	
@@ -1116,6 +1040,7 @@ h2 {
  	visibility: hidden;
  	opacity: 0;
 }
+	
 #menuhamburguesa:target {
 	visibility: visible;
 	opacity: 1;
@@ -1132,20 +1057,18 @@ h2 {
 }	
 
 .headermobile {
-		top: 20px;
-    right: 30px;
-	}
+	top: 20px;
+	right: 30px;
+}
 	
 .botonesmobile {
-		display: flex;
-		flex-direction: column;
-		gap:10px;
-	}
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+}
 	
 /*------------------FORO-------------------*/
-	
-	
-	
+
 #encabezadoforo {
 	gap: 30px;
 	padding-left: 0px;
@@ -1265,29 +1188,7 @@ h10 {
 	gap: 40px;
 }
 
-	
-/*------------------GRACIAS POR UNIRTE-------------------*/	
-	
-.columnader {
-	padding-top: 80px;
-	display: flex;
-	flex-direction: column;
-}
-	
-.preguntainicio {
-	width: 70%;
-}	
-
-.flecha {
-	visibility: hidden;
-}
-	
-.gracias {
-	padding-top: 50px;
-}	
-
-	
-/*------------------RESTAURANTES-------------------*/
+/*------------------CARDS-------------------*/
 	
 .contenedorcards {
 	display: flex;
@@ -1296,55 +1197,36 @@ h10 {
 	padding-top: 0px;
 }	
 
-	.sectioncards {
-		padding: 30px;
-	}
+.sectioncards {
+	padding: 30px;
+}
 	
-	h3 {
-		padding-bottom: 20px;
-	}	
-	
-	
-	
-	
-	/*------------------FOOTER-------------------*/
-	
-	.responsiveoculto{
-		display: none;
-	}
-	
-	h5{
-		justify-content: flex-end;
-	}
-	
-	footer {
-    background-color: #EC881D;
-    height: 50px;
-    font-family: 'open-sans', "Alegreya Sans";
-    font-size: 1em;
-    color: white;
-    width: 100%;
-    padding: 5px 0px 3px 0px;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    align-items: center;
-	}
-	
+h3 {
+	padding-bottom: 20px;
+}	
 
-/*------------------SINTAXIS-------------------*/
+/*------------------FOOTER-------------------*/
 	
-.sectionrestaurante {
+.responsiveoculto{
+	display: none;
+}
+	
+h5{
+	justify-content: flex-end;
+}
+	
+footer {
+	background-color: #EC881D;
+	height: 50px;
+	font-family: 'open-sans', "Alegreya Sans";
+	font-size: 1em;
+	color: white;
+	width: 100%;
+	padding: 5px 0px 3px 0px;
 	display: flex;
-	flex-direction: column;
+	justify-content: space-around;
+	position: absolute;
+	align-items: center;
 }
-
-.paddingleft {
-	padding-left: 50px;
+	
 }
-
-	.imgportada {
-		width: 200%;
-	}
-}
-
