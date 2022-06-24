@@ -111,7 +111,7 @@ nav li .opciones {
 }
 
 .submenu {
-	width: 80px;
+	width: 100%;
 }
 
 .botoneraheader {
@@ -274,7 +274,7 @@ h12 {
 
 .maincolumnas{
 	max-width: 100%;
-	background-image: url("img/formafondonueva.png");
+	background-image: url("img/formafondo.png");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: 100% auto;
@@ -334,34 +334,9 @@ h12 {
 .textosabesloquees {
 	width: 80%;
 	margin-left: 55px;
-	padding-bottom: 90px;
+	padding-bottom: 150px;
 }
-/* circulos sin fondo 
-.circulos {
-	width: 100%;
-	justify-content: space-evenly;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	align-content: center;
-	background-color: #508B59;
-	border: none;
-	border-radius: 30px;
-	
-}
-*/
 
-.circulos {
-	width: 60%;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    align-content: center;
-    background-color: #508B59;
-    border: none;
-    border-radius: 80px;
-    height: 380px;
-	margin-bottom: 100px;
-}
 
 article {
 	display:flex;
@@ -491,6 +466,15 @@ input type, label{
 	color:white;
 }
 
+/*------------------MAIN RECETAS-------------------*/
+.circulos {
+display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+
 /*------------------MAIN CARDS-------------------*/
 
 .maincards {
@@ -501,8 +485,8 @@ input type, label{
 
 .cards {
 	align-items: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 	text-align: center;
 }
 
@@ -512,22 +496,10 @@ input type, label{
 	border-color: #FFFFFF;
 }
 
-.selecciondeimagenesnaranja {
-	border:10px solid;
-	border-radius:100%;
-	border-color: #508B59;
-}
-
 .selecciondeimagenes:hover {
 	border:10px solid;
 	border-radius:100%;
 	border-color: #508B59;
-}
-
-.selecciondeimagenesnaranja:hover {
-	border:10px solid;
-	border-radius:100%;
-	border-color: #EC881D;
 }
 
 .contenedorcards {
@@ -1120,10 +1092,6 @@ a {
 	margin-left: 0px;
 }
 
-.circulos {
-	flex-direction: column;
-	align-items: center;
-}
 	
 .letrasblancas {
 		color: #EC881D;
@@ -1155,7 +1123,7 @@ h2 {
 	right: 0;
 	width: 30%;
 	padding: 90px 30px 30px;
-	background: #D1ABD8;
+	background: #508B59;
 	transition: opacity 500ms;
  	visibility: hidden;
  	opacity: 0;
@@ -1174,6 +1142,17 @@ h2 {
 	text-decoration: none;
 	color: #FFFFFF;	
 }	
+
+.headermobile {
+		top: 20px;
+    right: 30px;
+	}
+	
+.botonesmobile {
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+	}
 	
 /*------------------FORO-------------------*/
 	
