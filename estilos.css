@@ -51,6 +51,13 @@ a {
 	padding: 10px;
 }
 
+.solomobile {
+	visibility: hidden;
+}
+
+.solodesktop {
+	visibility: visible;
+}
 /*------------------HEADER-------------------*/
 
 header {
@@ -130,6 +137,13 @@ nav li .opciones {
 .botoneramobile{
 	display: none;
 }
+
+.headermobile {
+		position: fixed;
+		top: 50px;
+		right: 50px;
+
+	}
 
 /*------------------MAIN GENERAL-------------------*/
 
@@ -265,6 +279,9 @@ h12 {
 	background-attachment: scroll;
 	background-size: 100% auto;
 	height: inherit;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .botonera {
@@ -319,13 +336,31 @@ h12 {
 	margin-left: 55px;
 	padding-bottom: 90px;
 }
-
+/* circulos sin fondo 
 .circulos {
 	width: 100%;
 	justify-content: space-evenly;
 	padding-top: 50px;
 	padding-bottom: 100px;
 	align-content: center;
+	background-color: #508B59;
+	border: none;
+	border-radius: 30px;
+	
+}
+*/
+
+.circulos {
+	width: 60%;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    align-content: center;
+    background-color: #508B59;
+    border: none;
+    border-radius: 80px;
+    height: 380px;
+	margin-bottom: 100px;
 }
 
 article {
@@ -480,7 +515,7 @@ input type, label{
 .selecciondeimagenesnaranja {
 	border:10px solid;
 	border-radius:100%;
-	border-color: #EC881D;
+	border-color: #508B59;
 }
 
 .selecciondeimagenes:hover {
@@ -492,7 +527,7 @@ input type, label{
 .selecciondeimagenesnaranja:hover {
 	border:10px solid;
 	border-radius:100%;
-	border-color: #508B59;
+	border-color: #EC881D;
 }
 
 .contenedorcards {
@@ -507,6 +542,11 @@ input type, label{
 }
 
 /*------------------MAIN SINTAXIS PALERMO-------------------*/
+
+.sectionrestaurante {
+	display: flex;
+	flex-direction: row;
+}
 
 .container {
 	margin:auto;
@@ -689,6 +729,7 @@ input type, label{
 
 /*----------------- MAIN PIZZA-------------------*/
 
+
 .información ul{
 	color: #508B59;
 }
@@ -696,6 +737,7 @@ input type, label{
 .imgportada {
 	width: 100%;
 	height: auto;
+	padding-top: 60px;
 }
 
 .comentarios label {
@@ -724,7 +766,20 @@ input type, label{
 .numerodepaso {
 	font-size: 5em;
 	width: 10%;
+	padding-right: 20px;
+	animation-name: numeros;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-play-state: running;
 }
+
+@keyframes numeros {
+	to { 
+	padding-top: 25px;}
+}
+
 
 .explicaciondepaso {
 	display: flex;
@@ -733,7 +788,8 @@ input type, label{
 	height: fit-content;
 	background: #F9EEE6;
 	border-radius:18px;
-	padding: 20px 30px 20px 30px;
+	padding: 0px 30px 20px 30px;
+	margin-top: 50px;
 }
 
 .ingredientes{
@@ -1014,9 +1070,16 @@ a {
 /*------------------RESPONSIVE-------------------*/
 
 @media screen and (max-width: 600px) {
-	
 
-/*
+	/*------------------GENERAL-------------------*/
+	
+.solodesktop {
+	visibility: hidden;
+}
+
+.solomobile {
+	visibility: visible;
+}	
 /*------------------MAIN INICIO-------------------*/
 
 
@@ -1082,6 +1145,35 @@ h2 {
 
 	}
 	
+
+/*------------------HEADER-------------------*/	
+	
+#menuhamburguesa {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 30%;
+	padding: 90px 30px 30px;
+	background: #D1ABD8;
+	transition: opacity 500ms;
+ 	visibility: hidden;
+ 	opacity: 0;
+}
+#menuhamburguesa:target {
+	visibility: visible;
+	opacity: 1;
+}	
+	
+#cerrarmenuhambubrguesa {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;	
+}	
 	
 /*------------------FORO-------------------*/
 	
@@ -1259,9 +1351,32 @@ h10 {
 		justify-content: flex-end;
 	}
 	
+	footer {
+    background-color: #EC881D;
+    height: 50px;
+    font-family: 'open-sans', "Alegreya Sans";
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    padding: 5px 0px 3px 0px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+	}
 	
+
+/*------------------SINTAXIS-------------------*/
 	
-	
+.sectionrestaurante {
+	display: flex;
+	flex-direction: column;
+}
+
+.paddingleft {
+	padding-left: 50px;
+}
+
 	
 }
 
