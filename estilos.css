@@ -348,7 +348,7 @@ article {
 .flecha {
 	position:absolute; 
 	animation-name: flecha;
-	margin-top: 100px;
+	margin-top: 50px;
 	animation-duration: 2s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
