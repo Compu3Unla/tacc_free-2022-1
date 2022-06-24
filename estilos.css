@@ -352,6 +352,11 @@ nav li .opciones {
 	padding-bottom: 100px;
 }
 
+.textoespacio{
+	padding-top: 10px;
+	padding-bottom: 200px;
+}
+
 article {
 	display:flex;
 	flex-direction: column;
@@ -387,7 +392,7 @@ article {
 }
 
 .videocontaminacion {
-	padding-left: 180px;
+	padding-left: 140px;
 	padding-bottom: 100px;
 }
 
